@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financing Options - PW Residences</title>
+    <meta name="description" content="Explore flexible financing options for your luxury residence at PW Residences, including custom mortgage solutions and preferred lender programs.">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="index.html" class="logo">
+                    <span class="logo-pw">PW</span> Residences
+                </a>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link">Units</a>
+                        <div class="dropdown-menu">
+                            <a href="12B.html" class="dropdown-item">Unit 12B</a>
+                            <a href="10N.html" class="dropdown-item">Unit 10N</a>
+                            <a href="8A.html" class="dropdown-item">Unit 8A</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="finance.html" class="nav-link active">Finance</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="statement.html" class="nav-link">Statement</a>
+                    </li>
+                </ul>
+                <button class="menu-toggle" aria-label="Toggle navigation menu">
+                    <span class="menu-icon"></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero finance-hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h2>Financing Your Luxury Residence</h2>
+                    <p>Discover tailored financing solutions designed to make your dream home at PW Residences a reality.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="mortgage-calculator">
+            <div class="container">
+                <h2>Mortgage Calculator</h2>
+                <div class="calculator-wrapper">
+                    <form class="calculator-form" id="mortgageCalculator">
+                        <div class="form-group">
+                            <label for="purchase-price">Purchase Price</label>
+                            <input type="number" id="purchase-price" name="purchase-price" min="0" step="1000" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="down-payment">Down Payment (%)</label>
+                            <input type="number" id="down-payment" name="down-payment" min="0" max="100" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="interest-rate">Interest Rate (%)</label>
+                            <input type="number" id="interest-rate" name="interest-rate" min="0" step="0.125" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="loan-term">Loan Term (Years)</label>
+                            <select id="loan-term" name="loan-term" required>
+                                <option value="30">30 Years</option>
+                                <option value="15">15 Years</option>
+                                <option value="10">10 Years</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Calculate Payment</button>
+                    </form>
+                    <div class="calculator-results" id="calculatorResults">
+                        <h3>Estimated Monthly Payment</h3>
+                        <div class="results-grid">
+                            <div class="result-item">
+                                <span class="result-label">Principal & Interest</span>
+                                <span class="result-value" id="principalInterest"></span>
+                            </div>
+                            <div class="result-item">
+                                <span class="result-label">Property Taxes</span>
+                                <span class="result-value" id="propertyTaxes"></span>
+                            </div>
+                            <div class="result-item">
+                                <span class="result-label">HOA Fees</span>
+                                <span class="result-value" id="hoaFees"></span>
+                            </div>
+                            <div class="result-item total">
+                                <span class="result-label">Total Monthly Payment</span>
+                                <span class="result-value" id="totalPayment"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="financing-options">
+            <div class="container">
+                <h2>Financing Options</h2>
+                <div class="options-grid">
+                    <div class="option-item">
+                        <h3>Conventional Financing</h3>
+                        <ul class="option-features">
+                            <li>Competitive interest rates</li>
+                            <li>Flexible down payment options</li>
+                            <li>Terms up to 30 years</li>
+                            <li>Fixed and adjustable rates available</li>
+                        </ul>
+                    </div>
+                    <div class="option-item">
+                        <h3>Jumbo Loans</h3>
+                        <ul class="option-features">
+                            <li>Specialized luxury property financing</li>
+                            <li>Higher lending limits</li>
+                            <li>Competitive rates for qualified buyers</li>
+                            <li>Various term options</li>
+                        </ul>
+                    </div>
+                    <div class="option-item">
+                        <h3>Portfolio Loans</h3>
+                        <ul class="option-features">
+                            <li>Customized lending solutions</li>
+                            <li>Asset-based qualification options</li>
+                            <li>Flexible terms and conditions</li>
+                            <li>Relationship pricing available</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="preferred-lenders">
+            <div class="container">
+                <h2>Preferred Lenders</h2>
+                <p class="lead">Our carefully selected lending partners offer exclusive benefits to PW Residences buyers.</p>
+                <div class="lenders-grid">
+                    <div class="lender-item">
+                        <h3>First Republic Bank</h3>
+                        <p>Specialized in luxury property financing with competitive rates</p>
+                        <a href="#contact" class="btn btn-secondary">Request Introduction</a>
+                    </div>
+                    <div class="lender-item">
+                        <h3>City National Bank</h3>
+                        <p>Customized lending solutions for high-value properties</p>
+                        <a href="#contact" class="btn btn-secondary">Request Introduction</a>
+                    </div>
+                    <div class="lender-item">
+                        <h3>Wells Fargo Private Bank</h3>
+                        <p>Comprehensive wealth management and lending services</p>
+                        <a href="#contact" class="btn btn-secondary">Request Introduction</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="financing-faq">
+            <div class="container">
+                <h2>Frequently Asked Questions</h2>
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <h3>What are the down payment requirements?</h3>
+                        <p>Down payment requirements typically range from 20% to 30% for luxury properties, though specific terms may vary based on the buyer's financial profile and chosen financing program.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>Are interest-only options available?</h3>
+                        <p>Yes, qualified buyers may have access to interest-only payment options through our portfolio lending partners. These programs can be tailored to your specific financial strategy.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>What documents are typically required?</h3>
+                        <p>Required documentation generally includes tax returns, bank statements, investment accounts, and employment verification. Our preferred lenders can provide a detailed checklist based on your situation.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="container">
+                <h2>Connect with a Financing Specialist</h2>
+                <form class="contact-form" action="/submit-finance-inquiry" method="POST">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="preferred-lender">Preferred Lender</label>
+                        <select id="preferred-lender" name="preferred-lender">
+                            <option value="">Select a lender</option>
+                            <option value="first-republic">First Republic Bank</option>
+                            <option value="city-national">City National Bank</option>
+                            <option value="wells-fargo">Wells Fargo Private Bank</option>
+                            <option value="other">Other / No Preference</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Additional Information</label>
+                        <textarea id="message" name="message" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit Inquiry</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="logo-pw">PW</span> Residences
+                    <p>Redefining luxury living in the heart of Hollywood</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#calculator">Calculator</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p>6250 Hollywood Blvd<br>Los Angeles, CA 90028</p>
+                    <p>Phone: (323) 555-0123<br>Email: info@pwresidences.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 PW Residences. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/mortgage-calculator.js"></script>
+</body>
+</html>

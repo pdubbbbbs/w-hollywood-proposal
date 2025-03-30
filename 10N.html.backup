@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit 10N - W Hollywood Residences</title>
+    <meta name="description" content="Explore Unit 10N at W Hollywood Residences, offering modern living in a coveted location with great amenities.">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>W Hollywood Residences</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="#" class="active">Units</a>
+                    <div class="dropdown-content">
+                        <a href="12B.html">Unit 12B</a>
+                        <a href="10N.html" class="active">Unit 10N</a>
+                        <a href="8A.html">Unit 8A</a>
+                    </div>
+                </li>
+                <li><a href="finance.html">Finance</a></li>
+                <li><a href="statement.html">Statement</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero unit-hero">
+            <div class="hero-content">
+                <h2>Unit 10N - Contemporary Urban Living</h2>
+                <p>Experience comfortable living in this well-positioned unit at W Hollywood Residences, offering convenience and modern style.</p>
+            </div>
+        </section>
+
+        <section class="unit-overview">
+            <div class="container">
+                <div class="breadcrumbs">
+                    <a href="index.html">Home</a> &gt; <span>Unit 10N</span>
+                </div>
+                <h2>Unit 10N Specifications</h2>
+                <div class="specs-grid">
+                    <div class="spec-item">
+                        <h3>Listing Price</h3>
+                        <p class="highlight">$1,750,000</p>
+                    </div>
+                    <div class="spec-item">
+                        <h3>HOA Fees</h3>
+                        <p>$1,850/month</p>
+                    </div>
+                    <div class="spec-item">
+                        <h3>Square Footage</h3>
+                        <p>1,510 sq ft</p>
+                    </div>
+                    <div class="spec-item">
+                        <h3>Bedrooms</h3>
+                        <p>2</p>
+                    </div>
+                    <div class="spec-item">
+                        <h3>Bathrooms</h3>
+                        <p>2</p>
+                    </div>
+                    <div class="spec-item">
+                        <h3>Year Built</h3>
+                        <p>2010 (Minor updates 2019)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="unit-description">
+            <div class="container">
+                <h2>Stylish Mid-Rise Unit</h2>
+                <p class="lead">Unit 10N offers a comfortable living space on the 10th floor of the W Hollywood Residences, featuring standard finishes and westward-facing views.</p>
+                
+                <p>This well-positioned unit provides a practical layout with ample natural light throughout the day. While it lacks the premium north-facing views of some other units (like 8A's iconic Hollywood landmarks view), it still offers a pleasant urban perspective that captures the energy of the surrounding area.</p>
+                
+                <p>Located on the 10th floor, this unit provides a slightly higher vantage point than lower floors, though without the recently completed premium renovations found in select other units. The original finishes have been maintained in good condition with minor updates made in 2019.</p>
+            </div>
+        </section>
+
+        <section class="image-gallery">
+            <div class="container">
+                <h2>Gallery</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item main-image">
+                        <img src="images/10N-living-room.jpg" alt="Unit 10N Living Room with westward view" class="gallery-img">
+                        <p class="caption">Living room with large windows providing westward views</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/10N-kitchen.jpg" alt="Unit 10N kitchen" class="gallery-img">
+                        <p class="caption">Kitchen with standard appliances and original cabinetry</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/10N-master-bedroom.jpg" alt="Unit 10N master bedroom" class="gallery-img">
+                        <p class="caption">Comfortable master bedroom with standard lighting</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/10N-master-bath.jpg" alt="Unit 10N master bathroom" class="gallery-img">
+                        <p class="caption">Master bathroom with original fixtures</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/10N-dining.jpg" alt="Unit 10N dining area" class="gallery-img">
+                        <p class="caption">Dining area with city views</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/10N-view.jpg" alt="Westward view from Unit 10N" class="gallery-img">
+                        <p class="caption">Westward view offering urban cityscape</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="floor-plan">
+            <div class="container">
+                <h2>Floor Plan</h2>
+                <div class="floor-plan-content">
+                    <div class="floor-plan-image">
+                        <img src="images/10N-floor-plan.jpg" alt="Unit 10N floor plan" class="plan-img">
+                    </div>
+                    <div class="floor-plan-details">
+                        <h3>Functional Layout</h3>
+                        <ul class="floor-plan-features">
+                            <li>Standard living and dining area with window views</li>
+                            <li>Functional kitchen with breakfast counter</li>
+                            <li>Master bedroom with attached bathroom</li>
+                            <li>Second bedroom with shared bathroom access</li>
+                            <li>Guest bathroom</li>
+                            <li>Modest storage options</li>
+                            <li>Small balcony with westward view</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="remodel-details">
+            <div class="container">
+                <h2>Unit Features</h2>
+                <p class="lead">Unit 10N features the original design with some minor updates from 2019.</p>
+                
+                <div class="remodel-grid">
+                    <div class="remodel-item">
+                        <h3>Kitchen Features</h3>
+                        <ul>
+                            <li>Original cabinetry with hardware updates</li>
+                            <li>Standard countertops</li>
+                            <li>Basic stainless steel appliance package</li>
+                            <li>Standard tile backsplash</li>
+                            <li>Adequate storage space</li>
+                        </ul>
+                    </div>
+                    <div class="remodel-item">
+                        <h3>Bathroom Features</h3>
+                        <ul>
+                            <li>Original vanities with standard sinks</li>
+                            <li>Standard shower enclosures</li>
+                            <li>Basic fixtures in good condition</li>
+                            <li>Standard flooring</li>
+                            <li>Original lighting</li>
+                        </ul>
+                    </div>
+                    <div class="remodel-item">
+                        <h3>Living Space Features</h3>
+                        <ul>
+                            <li>Standard flooring throughout</li>
+                            <li>Basic recessed lighting</li>
+                            <li>Neutral paint colors</li>
+                            <li>Space for entertainment center</li>
+                            <li>Basic window treatments</li>
+                        </ul>
+                    </div>
+                    <div class="remodel-item">
+                        <h3>Comfort Features</h3>
+                        <ul>
+                            <li>Standard thermostat system</li>
+                            <li>Basic soundproofing</li>
+                            <li>Standard electrical outlets</li>
+                            <li>Original HVAC system in good working condition</li>
+                            <li>Adequate climate control</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="amenities">
+            <div class="container">
+                <h2>Building Amenities</h2>
+                <p class="lead">As a resident of Unit 10N, you'll enjoy access to W Hollywood's world-class amenities and services.</p>
+                
+                <div class="amenities-grid">
+                    <div class="amenity-item">
+                        <h3>Rooftop Pool Deck</h3>
+                        <p>Spectacular rooftop pool with panoramic views, cabanas, and lounging areas</p>
+                    </div>
+                    <div class="amenity-item">
+                        <h3>Fitness Center</h3>
+                        <p>State-of-the-art fitness center with cardio equipment, weights, and yoga area</p>
+                    </div>
+                    <div class="amenity-item">
+                        <h3>24/7 Concierge</h3>
+                        <p>Full-service concierge to assist with dining reservations, entertainment, and personal requests</p>
+                    </div>
+                    <div class="amenity-item">
+                        <h3>Valet Parking</h3>
+                        <p>Complimentary valet parking service for residents and guests</p>
+                    </div>
+                    <div class="amenity-item">
+                        <h3>Business Center</h3>
+                        <p>Professional business center with meeting rooms and workstations</p>
+                    </div>
+                    <div class="amenity-item">
+                        <h3>Westward Views</h3>
+                        <p>Unit 10N provides westward-facing views of the urban landscape, though without the premium iconic landmark views available in north-facing units</p>
+                    </div>
+                    <div class="amenity-item">
+                        <h3>Security</h3>
+                        <p>24/7 security personnel and advanced surveillance systems</p>
+                    </div>
+                    <div class="amenity-item">
+                        <h3>Resident Lounge</h3>
+                        <p>Exclusive resident lounge for entertaining and socializing</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-form">
+            <div class="container">
+                <h2>Inquire About Unit 10N</h2>
+                <p>Interested in learning more about this unit? Complete the form below and a representative will contact you promptly.</p>
+                
+                <form id="unit-inquiry-form" class="inquiry-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="preferred-contact">Preferred Contact Method</label>
+                        <select id="preferred-contact" name="preferred-contact">
+                            <option value="email">Email</option>
+                            <option value="phone">Phone</option>
+                        </select>
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="message">Questions or Comments</label>
+                        <textarea id="message" name="message" rows="5"></textarea>
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="schedule">Schedule a Viewing</label>
+                        <input type="checkbox" id="schedule" name="schedule" value="yes">
+                        I'm interested in scheduling a private viewing
+                    </div>
+                    <div class="form-actions">
+                        <button type="submit" class="cta-button">Submit Inquiry</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <div class="container">
+                <h2>Consider Your Options</h2>
+                <p>While Unit 10N offers comfortable living, you may also want to explore other available units like the recently renovated Unit 8A.</p>
+                <div class="cta-buttons">
+                    <a href="#unit-inquiry-form" class="cta-button">Schedule a Viewing</a>
+                    <a href="8A.html" class="cta-button secondary">Explore Unit 8A</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>W Hollywood Residences</h3>
+                <p>6250 Hollywood Blvd<br>Los Angeles, CA 90028</p>
+            </div>
+            <div class="footer-section">
+                <h3>Navigation</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="12B.html">Unit 12B</a></li>
+                    <li><a href="10N.html">Unit 10N</a></li>
+                    <li><a href="8A.html">Unit 8A</a></li>
+                    <li><a href="finance.html">Finance</a></li>
+                    <li><a href="statement.html">Statement</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect</h3>
+                <p>Email: info@whollywoodresidences.com<br>Phone: (323) 555-1234</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 W Hollywood Residences. All rights reserved.</p>
+        </div>
+    </footer>
+
