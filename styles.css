@@ -1,0 +1,89 @@
+/* Interactive Floor Plan Styles */
+.interactive-floor-plan {
+    padding: 4rem 0;
+    background-color: #f9f9f9;
+}
+
+.floor-plan-viewer {
+    margin: 2rem 0;
+}
+
+.view-container {
+    position: relative;
+    margin-bottom: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.floor-plan-view {
+    width: 100%;
+    display: none;
+    transition: opacity 0.3s ease;
+}
+
+.floor-plan-view.active {
+    display: block;
+}
+
+.room-dimensions {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 4px;
+    margin: 2rem 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.dimensions-list {
+    list-style: none;
+    padding: 0;
+    columns: 2;
+    column-gap: 2rem;
+}
+
+.dimensions-list li {
+    margin-bottom: 1rem;
+    break-inside: avoid;
+}
+
+.view-controls {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.view-toggle {
+    padding: 0.75rem 1.5rem;
+    border: 2px solid #333;
+    background: white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.view-toggle.active {
+    background: #333;
+    color: white;
+}
+
+.view-toggle:hover {
+    background: #444;
+    color: white;
+}
+
+.floor-plan-note {
+    font-style: italic;
+    color: #666;
+    margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+    .dimensions-list {
+        columns: 1;
+    }
+    
+    .view-controls {
+        flex-direction: column;
+    }
+}
+

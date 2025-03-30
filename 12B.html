@@ -114,18 +114,6 @@
         </div>
     </section>
 
-    <section class="floor-plan">
-        <div class="container">
-            <h2>Floor Plan</h2>
-            <div class="floor-plan-image">
-                <img src="images/12B-floorplan.jpg" alt="Floor Plan for Unit 12B" class="lazy-load">
-            </div>
-            <div class="floor-plan-details">
-                <p>Unit 12B offers an open-concept living area with a spacious layout. The master suite includes a walk-in closet and en-suite bathroom. The second bedroom features its own bathroom, and a half bath is conveniently located near the entrance. The unit includes a balcony accessible from the living room.</p>
-                <p>While the layout is functional, it differs from the more efficient space utilization found in Unit 8A, which features an optimized floor plan that maximizes both living space and storage.</p>
-            </div>
-        </div>
-    </section>
 
     <section class="unit-amenities">
         <div class="container">
@@ -160,6 +148,59 @@
                     <span class="amenity-icon"></span>
                     <h3>Balcony</h3>
                     <p>Private balcony accessible from the living room with city views.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="floor-plan-section">
+        <div class="container">
+            <h2>Floor Plan & Dimensions</h2>
+            <div class="floor-plan-text">
+                <div class="floor-plan-grid">
+                    <div class="room balcony" data-room="Balcony">
+                        <span class="room-name">Balcony</span>
+                        <span class="room-dim">12' x 6'</span>
+                    </div>
+                    <div class="room living-room" data-room="Living Room">
+                        <span class="room-name">Living Room</span>
+                        <span class="room-dim">20' x 16'</span>
+                    </div>
+                    <div class="room kitchen" data-room="Kitchen">
+                        <span class="room-name">Kitchen</span>
+                        <span class="room-dim">12' x 10'</span>
+                    </div>
+                    <div class="room dining" data-room="Dining Area">
+                        <span class="room-name">Dining Area</span>
+                        <span class="room-dim">12' x 10'</span>
+                    </div>
+                    <div class="room master-bed" data-room="Master Bedroom">
+                        <span class="room-name">Master Bedroom</span>
+                        <span class="room-dim">15' x 14'</span>
+                    </div>
+                    <div class="room master-bath" data-room="Master Bath">
+                        <span class="room-name">Master Bath</span>
+                        <span class="room-dim">8' x 12'</span>
+                    </div>
+                    <div class="room second-bed" data-room="Second Bedroom">
+                        <span class="room-name">Second Bedroom</span>
+                        <span class="room-dim">12' x 11'</span>
+                    </div>
+                    <div class="room second-bath" data-room="Second Bath">
+                        <span class="room-name">Second Bath</span>
+                        <span class="room-dim">8' x 5'</span>
+                    </div>
+                </div>
+                <div class="floor-plan-details">
+                    <h3>Unit Details</h3>
+                    <ul class="details-list">
+                        <li>Total Area: 1,780 sq ft</li>
+                        <li>Bedrooms: 2</li>
+                        <li>Bathrooms: 2.5</li>
+                        <li>Balcony: Yes</li>
+                        <li>Floor: 12th</li>
+                    </ul>
+                    <p class="floor-plan-note">This text-based representation shows the approximate layout and dimensions of Unit 12B. Each room's dimensions are listed within its respective area.</p>
                 </div>
             </div>
         </div>
@@ -297,5 +338,60 @@
                 <form class="contact-form" id="viewingForm">
                     <div class="form-group">
                         <label for="name">Full Name</label>
-                        <input type="
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Request Viewing</button>
+                </form>
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p><strong>Sales Office:</strong> W Hollywood Residences</p>
+                    <p><strong>Address:</strong> 6250 Hollywood Blvd, Hollywood, CA 90028</p>
+                    <p><strong>Phone:</strong> (323) 798-2500</p>
+                    <p><strong>Email:</strong> sales@whollywoodresidences.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>W Hollywood <span>Residences</span></h2>
+                </div>
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="12B.html">Unit 12B</a></li>
+                        <li><a href="10N.html">Unit 10N</a></li>
+                        <li><a href="8A.html">Unit 8A</a></li>
+                        <li><a href="finance.html">Financial Analysis</a></li>
+                        <li><a href="statement.html">Personal Statement</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <p>6250 Hollywood Blvd, Hollywood, CA 90028</p>
+                    <p>(323) 798-2500</p>
+                </div>
+            </div>
+            <div class="footer-disclaimer">
+                <p>This is a proposal website for educational purposes. Not an official W Hollywood Residences website.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
