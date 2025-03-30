@@ -1,8 +1,53 @@
-        <main class="main-content">
-            <!-- Hero Section with Video Background -->
-            <section class="hero unit-hero">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit 8A - PW Residences | Luxury Living</title>
+    <meta name="description" content="Explore Unit 8A at PW Residences - where contemporary elegance meets urban sophistication in the heart of Hollywood.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="index.html" class="logo">
+                    <span class="logo-pw">PW</span> Residences
+                </a>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link active">Units</a>
+                        <div class="dropdown-menu">
+                            <a href="12B.html" class="dropdown-item">Unit 12B</a>
+                            <a href="10N.html" class="dropdown-item">Unit 10N</a>
+                            <a href="8A.html" class="dropdown-item">Unit 8A</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="finance.html" class="nav-link">Finance</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="statement.html" class="nav-link">Statement</a>
+                    </li>
+                </ul>
+                <button class="menu-toggle" aria-label="Toggle navigation menu">
+                    <span class="menu-icon"></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <!-- Hero Section with Large Feature Image -->
+        <section class="hero unit-hero">
                 <div class="hero-media">
-                    <video autoplay muted loop playsinline poster="images/8A-hero-poster.jpg">
+                    <video autoplay muted loop playsinline poster="images/8A/unit_8A_image_1.jpg">
                         <source src="videos/8A-hero.mp4" type="video/mp4">
                     </video>
                 </div>
@@ -71,54 +116,59 @@
                 </div>
             </section>
 
-            <!-- Features & Amenities -->
-            <section class="features">
+            <!-- Luxury Features & Amenities -->
+            <section class="features section">
                 <div class="container">
-                    <h2>Distinctive Features</h2>
-                    <div class="features-grid">
-                        <div class="feature-category">
-                            <h3>Interior Finishes</h3>
-                            <ul class="feature-list">
-                                <li>Italian marble countertops</li>
-                                <li>Custom white oak flooring</li>
-                                <li>Floor-to-ceiling windows</li>
-                                <li>Smart home automation</li>
-                                <li>Designer lighting package</li>
+                    <h2>Luxury Features & Amenities</h2>
+                    <p class="section-subtitle text-center">Impeccable craftsmanship and premium finishes create an unparalleled living experience</p>
+                    
+                    <div class="luxury-features">
+                        <div class="feature-card">
+                            <div class="feature-icon">✧</div>
+                            <h3 class="feature-title">Interior Finishes</h3>
+                            <ul>
+                                <li>Italian Calacatta marble countertops</li>
+                                <li>European white oak herringbone flooring</li>
+                                <li>Floor-to-ceiling NanaWall windows</li>
+                                <li>Lutron smart home automation system</li>
+                                <li>Custom Arteriors lighting package</li>
                             </ul>
                         </div>
-                        <div class="feature-category">
-                            <h3>Kitchen</h3>
-                            <ul class="feature-list">
-                                <li>Wolf gas range & oven</li>
-                                <li>Sub-Zero refrigerator</li>
-                                <li>Miele dishwasher</li>
-                                <li>Wine refrigeration</li>
-                                <li>Custom cabinetry</li>
+                        
+                        <div class="feature-card">
+                            <div class="feature-icon">✧</div>
+                            <h3 class="feature-title">Chef's Kitchen</h3>
+                            <ul>
+                                <li>Wolf 48" dual-fuel range with double oven</li>
+                                <li>Sub-Zero Pro 48" side-by-side refrigerator</li>
+                                <li>Miele Diamond dishwasher with custom panel</li>
+                                <li>Dual-zone wine refrigeration (100-bottle capacity)</li>
+                                <li>Hand-crafted Bulthaup cabinetry with soft-close</li>
                             </ul>
                         </div>
-                        <div class="feature-category">
-                            <h3>Master Suite</h3>
-                            <ul class="feature-list">
-                                <li>Walk-in closet</li>
-                                <li>Spa-inspired bathroom</li>
-                                <li>Dual vanities</li>
-                                <li>Freestanding soaking tub</li>
-                                <li>Private terrace access</li>
+                        
+                        <div class="feature-card">
+                            <div class="feature-icon">✧</div>
+                            <h3 class="feature-title">Master Sanctuary</h3>
+                            <ul>
+                                <li>Bespoke walk-in closet with custom organization</li>
+                                <li>Spa-inspired Porcelanosa marble bathroom</li>
+                                <li>Steam shower with rainfall and body sprays</li>
+                                <li>Victoria + Albert freestanding soaking tub</li>
+                                <li>Private terrace access with city views</li>
                             </ul>
                         </div>
-                        <div class="feature-category">
-                            <h3>Building Amenities</h3>
-                            <ul class="feature-list">
-                                <li>24/7 concierge service</li>
-                                <li>Valet parking</li>
-                                <li>Fitness center access</li>
-                                <li>Rooftop lounge</li>
-                                <li>Package reception</li>
+                        
+                        <div class="feature-card">
+                            <div class="feature-icon">✧</div>
+                            <h3 class="feature-title">Signature Services</h3>
+                            <ul>
+                                <li>24/7 dedicated concierge by Les Clefs d'Or</li>
+                                <li>Valet parking with electric vehicle charging</li>
+                                <li>Fully-equipped Equinox-designed fitness center</li>
+                                <li>Rooftop infinity pool and entertainment lounge</li>
+                                <li>Private residential entrance with biometric security</li>
                             </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
             <!-- Floor Plans Section -->
             <section id="floor-plans" class="floor-plans">
                 <div class="container">
@@ -159,59 +209,61 @@
                 </div>
             </section>
 
-            <!-- Enhanced Gallery Section -->
-            <section class="gallery">
+            <!-- Rolodex Gallery Section -->
+            <section class="gallery" id="gallery">
                 <div class="container">
-                    <h2>Photo Gallery</h2>
-                    <div class="gallery-filters">
-                        <button class="filter-btn active" data-filter="all">All</button>
-                        <button class="filter-btn" data-filter="living">Living Areas</button>
-                        <button class="filter-btn" data-filter="kitchen">Kitchen</button>
-                        <button class="filter-btn" data-filter="bedrooms">Bedrooms</button>
-                        <button class="filter-btn" data-filter="views">Views</button>
-                    </div>
-                    <div class="gallery-grid">
-                        <div class="gallery-item" data-category="living">
-                            <figure>
-                                <img src="images/8A-living-1.jpg" alt="Spacious living room with city views" loading="lazy">
-                                <figcaption>
+                    <h2>Immersive Photo Gallery</h2>
+                    <p class="section-subtitle text-center">Experience the elegance of Unit 8A through our curated collection of images</p>
+                    
+                    <!-- Gallery Rolodex -->
+                    <div class="gallery-rolodex">
+                        <div class="gallery-container">
+                            <div class="gallery-slide active">
+                                <img src="images/8A/unit_8A_image_1.jpg" alt="Spacious living room with city views">
+                                <div class="gallery-info">
                                     <h3>Living Room</h3>
-                                    <p>Expansive windows frame stunning city views</p>
-                                </figcaption>
-                            </figure>
-                        </div>
-                        <div class="gallery-item" data-category="kitchen">
-                            <figure>
-                                <img src="images/8A-kitchen-1.jpg" alt="Gourmet kitchen with premium appliances" loading="lazy">
-                                <figcaption>
+                                    <p>Expansive windows frame stunning city views with natural light flooding the space</p>
+                                </div>
+                            </div>
+                            <div class="gallery-slide">
+                                <img src="images/8A/unit_8A_image_2.jpg" alt="Gourmet kitchen with premium appliances">
+                                <div class="gallery-info">
                                     <h3>Gourmet Kitchen</h3>
-                                    <p>Professional-grade appliances and custom cabinetry</p>
-                                </figcaption>
-                            </figure>
-                        </div>
-                        <div class="gallery-item" data-category="bedrooms">
-                            <figure>
-                                <img src="images/8A-master-1.jpg" alt="Master bedroom suite" loading="lazy">
-                                <figcaption>
+                                    <p>Professional-grade appliances and custom cabinetry designed for entertaining</p>
+                                </div>
+                            </div>
+                            <div class="gallery-slide">
+                                <img src="images/8A/unit_8A_image_3.jpg" alt="Master bedroom suite">
+                                <div class="gallery-info">
                                     <h3>Master Suite</h3>
-                                    <p>Serene retreat with private terrace access</p>
-                                </figcaption>
-                            </figure>
-                        </div>
-                        <div class="gallery-item" data-category="views">
-                            <figure>
-                                <img src="images/8A-view-1.jpg" alt="Panoramic city views" loading="lazy">
-                                <figcaption>
+                                    <p>Serene retreat with private terrace access and custom lighting</p>
+                                </div>
+                            </div>
+                            <div class="gallery-slide">
+                                <img src="images/8A/unit_8A_image_4.jpg" alt="Panoramic city views">
+                                <div class="gallery-info">
                                     <h3>City Views</h3>
-                                    <p>Breathtaking panoramas of the Hollywood Hills</p>
-                                </figcaption>
-                            </figure>
+                                    <p>Breathtaking panoramas of the Hollywood Hills from your private terrace</p>
+                                </div>
+                            </div>
                         </div>
-                        <!-- Additional gallery items will be added here -->
+                        
+                        <button class="gallery-ctrl gallery-prev" aria-label="Previous image">&#10094;</button>
+                        <button class="gallery-ctrl gallery-next" aria-label="Next image">&#10095;</button>
+                        
+                        <div class="gallery-nav">
+                            <div class="gallery-dots">
+                                <button class="gallery-dot active" data-slide="0" aria-label="View Living Room"></button>
+                                <button class="gallery-dot" data-slide="1" aria-label="View Kitchen"></button>
+                                <button class="gallery-dot" data-slide="2" aria-label="View Master Suite"></button>
+                                <button class="gallery-dot" data-slide="3" aria-label="View City Views"></button>
+                            </div>
+                        </div>
                     </div>
+                    
                     <div class="gallery-actions">
-                        <button class="btn btn-primary" id="viewAllPhotos">View All Photos</button>
-                        <a href="#virtual-tour" class="btn btn-outline">Take Virtual Tour</a>
+                        <a href="#virtual-tour" class="btn btn-primary">Take Virtual Tour</a>
+                        <a href="#floor-plans" class="btn btn-outline">View Floor Plans</a>
                     </div>
                 </div>
             </section>
@@ -409,6 +461,7 @@
                 </div>
                 <div class="footer-bottom">
                     <p>&copy; 2025 PW Residences. All rights reserved.</p>
+                    <p class="image-credits">Images courtesy of <a href="https://unsplash.com" target="_blank" rel="noopener noreferrer">Unsplash</a></p>
                     <div class="footer-legal">
                         <a href="privacy.html">Privacy Policy</a>
                         <a href="terms.html">Terms of Use</a>
