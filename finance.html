@@ -3,35 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Financial analysis for W Hollywood Residences comparing buying vs leasing">
-    <title>Financial Analysis | W Hollywood Residences</title>
+    <title>Financing Options - PW Residences</title>
+    <meta name="description" content="Explore flexible financing options for your luxury residence at PW Residences, including custom mortgage solutions and preferred lender programs.">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header>
+    <header class="header">
         <div class="container">
-            <div class="logo">
-                <a href="index.html">W Hollywood Residences</a>
-            </div>
-            <nav>
-                <button class="mobile-menu-toggle" aria-label="Toggle menu">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-                <ul class="main-menu">
-                    <li><a href="index.html">Home</a></li>
-                    <li>
-                        <a href="#">Units</a>
-                        <ul class="submenu">
-                            <li><a href="12B.html">Unit 12B</a></li>
-                            <li><a href="10N.html">Unit 10N</a></li>
-                            <li><a href="8A.html">Unit 8A</a></li>
-                        </ul>
+            <nav class="nav">
+                <a href="index.html" class="logo">
+                    <span class="logo-pw">PW</span> Residences
+                </a>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
                     </li>
-                    <li><a href="finance.html" class="active">Financial Analysis</a></li>
-                    <li><a href="statement.html">Personal Statement</a></li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link">Units</a>
+                        <div class="dropdown-menu">
+                            <a href="12B.html" class="dropdown-item">Unit 12B</a>
+                            <a href="10N.html" class="dropdown-item">Unit 10N</a>
+                            <a href="8A.html" class="dropdown-item">Unit 8A</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="finance.html" class="nav-link active">Finance</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="statement.html" class="nav-link">Statement</a>
+                    </li>
                 </ul>
+                <button class="menu-toggle" aria-label="Toggle navigation menu">
+                    <span class="menu-icon"></span>
+                </button>
             </nav>
         </div>
     </header>
@@ -39,289 +43,206 @@
     <main>
         <section class="hero finance-hero">
             <div class="container">
-                <h1>Financial Analysis</h1>
-                <p class="subtitle">Making an informed investment decision in W Hollywood Residences</p>
-            </div>
-        </section>
-
-        <section class="finance-overview">
-            <div class="container">
-                <h2>Buying vs. Leasing: A Comprehensive Comparison</h2>
-                <p class="intro-text">When considering a luxury residence like W Hollywood, it's essential to evaluate the financial implications of buying versus leasing. This analysis provides a clear breakdown of costs, benefits, and long-term value to help you make an informed decision.</p>
-                
-                <div class="comparison-highlights">
-                    <div class="highlight-card">
-                        <h3>Investment Value</h3>
-                        <p>Property ownership builds equity and wealth over time, while lease payments provide no lasting financial benefit.</p>
-                    </div>
-                    <div class="highlight-card">
-                        <h3>Tax Advantages</h3>
-                        <p>Homeowners benefit from mortgage interest and property tax deductions, unavailable to renters.</p>
-                    </div>
-                    <div class="highlight-card">
-                        <h3>Cash Offer Power</h3>
-                        <p>All-cash purchases typically secure better pricing and preferred closing terms in competitive markets.</p>
-                    </div>
+                <div class="hero-content">
+                    <h2>Financing Your Luxury Residence</h2>
+                    <p>Discover tailored financing solutions designed to make your dream home at PW Residences a reality.</p>
                 </div>
             </div>
         </section>
 
-        <section class="cost-comparison">
+        <section class="mortgage-calculator">
             <div class="container">
-                <h2>Monthly Cost Comparison</h2>
-                <p>Using the benchmark lease rate of $7,500/month, let's compare the financial implications of buying versus leasing:</p>
-                
-                <div class="comparison-table-container">
-                    <table class="comparison-table">
-                        <thead>
-                            <tr>
-                                <th>Expense Category</th>
-                                <th>Buying (Unit 8A)</th>
-                                <th>Leasing Equivalent</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Monthly Payment</td>
-                                <td>$0 (Cash Purchase)</td>
-                                <td>$7,500</td>
-                            </tr>
-                            <tr>
-                                <td>HOA Fees</td>
-                                <td>$1,850</td>
-                                <td>Included in rent</td>
-                            </tr>
-                            <tr>
-                                <td>Property Taxes (1.25%)</td>
-                                <td>$1,458/month</td>
-                                <td>$0</td>
-                            </tr>
-                            <tr>
-                                <td>Insurance</td>
-                                <td>$250/month</td>
-                                <td>$150/month (renter's insurance)</td>
-                            </tr>
-                            <tr>
-                                <td>Maintenance/Repairs</td>
-                                <td>$300/month (estimated)</td>
-                                <td>$0</td>
-                            </tr>
-                            <tr class="total-row">
-                                <td><strong>Monthly Total</strong></td>
-                                <td><strong>$3,858</strong></td>
-                                <td><strong>$7,650</strong></td>
-                            </tr>
-                            <tr class="savings-row">
-                                <td><strong>Monthly Savings</strong></td>
-                                <td colspan="2"><strong>$3,792</strong></td>
-                            </tr>
-                            <tr class="annual-row">
-                                <td><strong>Annual Savings</strong></td>
-                                <td colspan="2"><strong>$45,504</strong></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-                
-                <div class="note-box">
-                    <p><strong>Note:</strong> This comparison assumes a cash purchase. With current mortgage rates around 3.75% on a 30-year fixed mortgage, monthly ownership costs would increase but still remain competitive with leasing.</p>
-                </div>
-            </div>
-        </section>
-
-        <section class="investment-analysis">
-            <div class="container">
-                <h2>Long-Term Investment Benefits</h2>
-                
-                <div class="two-column">
-                    <div class="column">
-                        <h3>Property Appreciation</h3>
-                        <p>Hollywood luxury real estate has shown an average annual appreciation of 5-7% over the past decade. At a conservative 5% annual growth rate:</p>
-                        <ul class="benefit-list">
-                            <li>Year 5: Property value increases to approximately $1.64 million</li>
-                            <li>Year 10: Property value reaches approximately $2.1 million</li>
-                            <li>Year 15: Property value grows to approximately $2.67 million</li>
-                        </ul>
-                        <p>This appreciation represents potential equity growth of over $1.27 million in 15 years.</p>
-                    </div>
-                    
-                    <div class="column">
-                        <div class="graph-container">
-                            <h4>Projected Property Value Growth</h4>
-                            <div class="graph" id="appreciation-graph">
-                                <!-- Graph will be rendered with JavaScript -->
-                                <div class="graph-placeholder">
-                                    <div class="bar" style="height: 20%"><span>Now</span></div>
-                                    <div class="bar" style="height: 40%"><span>5y</span></div>
-                                    <div class="bar" style="height: 60%"><span>10y</span></div>
-                                    <div class="bar" style="height: 80%"><span>15y</span></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="opportunity-cost">
-                    <h3>Opportunity Cost Analysis</h3>
-                    <p>Over 15 years of leasing at $7,500/month (with 3% annual rent increases), you would spend approximately:</p>
-                    <div class="cost-highlight">$1,695,789</div>
-                    <p>This represents money spent with no equity built, asset appreciation, or tax benefits received.</p>
-                </div>
-            </div>
-        </section>
-
-        <section class="cash-offer-advantages">
-            <div class="container">
-                <h2>The Power of a Cash Offer</h2>
-                
-                <div class="advantages-grid">
-                    <div class="advantage-card">
-                        <h3>Stronger Negotiating Position</h3>
-                        <p>Cash offers typically secure a 3-5% price reduction compared to financed offers, potentially saving $45,000-$75,000 on purchase price.</p>
-                    </div>
-                    
-                    <div class="advantage-card">
-                        <h3>Expedited Closing</h3>
-                        <p>Cash transactions can close in as little as 7-10 days versus 30-45 days with financing, reducing carrying costs and securing the property faster.</p>
-                    </div>
-                    
-                    <div class="advantage-card">
-                        <h3>No Financing Contingencies</h3>
-                        <p>Cash offers eliminate lender requirements, appraisal issues, and loan approval delays that can complicate or derail transactions.</p>
-                    </div>
-                    
-                    <div class="advantage-card">
-                        <h3>Seller Preference</h3>
-                        <p>In competitive markets like Hollywood, sellers typically select cash offers over financed offers, even when financed offers are slightly higher.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="calculator-section">
-            <div class="container">
-                <h2>Personalized Financial Calculator</h2>
-                <p>Adjust the values below to see how different scenarios impact your investment:</p>
-                
-                <div class="calculator-container">
-                    <form id="financial-calculator" class="calculator-form">
+                <h2>Mortgage Calculator</h2>
+                <div class="calculator-wrapper">
+                    <form class="calculator-form" id="mortgageCalculator">
                         <div class="form-group">
-                            <label for="purchase-price">Purchase Price ($):</label>
-                            <input type="number" id="purchase-price" value="1400000">
+                            <label for="purchase-price">Purchase Price</label>
+                            <input type="number" id="purchase-price" name="purchase-price" min="0" step="1000" required>
                         </div>
-                        
                         <div class="form-group">
-                            <label for="down-payment">Down Payment (%):</label>
-                            <input type="number" id="down-payment" value="100" min="20" max="100">
+                            <label for="down-payment">Down Payment (%)</label>
+                            <input type="number" id="down-payment" name="down-payment" min="0" max="100" required>
                         </div>
-                        
                         <div class="form-group">
-                            <label for="interest-rate">Interest Rate (%):</label>
-                            <input type="number" id="interest-rate" value="3.75" step="0.125" min="2" max="8">
+                            <label for="interest-rate">Interest Rate (%)</label>
+                            <input type="number" id="interest-rate" name="interest-rate" min="0" step="0.125" required>
                         </div>
-                        
                         <div class="form-group">
-                            <label for="loan-term">Loan Term (years):</label>
-                            <input type="number" id="loan-term" value="30" min="15" max="30" step="5">
+                            <label for="loan-term">Loan Term (Years)</label>
+                            <select id="loan-term" name="loan-term" required>
+                                <option value="30">30 Years</option>
+                                <option value="15">15 Years</option>
+                                <option value="10">10 Years</option>
+                            </select>
                         </div>
-                        
-                        <div class="form-group">
-                            <label for="hoa-fees">Monthly HOA Fees ($):</label>
-                            <input type="number" id="hoa-fees" value="1850">
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="property-tax-rate">Property Tax Rate (%):</label>
-                            <input type="number" id="property-tax-rate" value="1.25" step="0.01" min="0.5" max="3">
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="appreciation-rate">Annual Appreciation Rate (%):</label>
-                            <input type="number" id="appreciation-rate" value="5" step="0.1" min="0" max="10">
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="rental-equivalent">Monthly Rental Equivalent ($):</label>
-                            <input type="number" id="rental-equivalent" value="7500">
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="investment-horizon">Investment Horizon (years):</label>
-                            <input type="number" id="investment-horizon" value="10" min="5" max="30">
-                        </div>
-                        
-                        <button type="button" id="calculate-btn" class="btn-primary">Calculate</button>
+                        <button type="submit" class="btn btn-primary">Calculate Payment</button>
                     </form>
-                    
-                    <div id="calculator-results" class="calculator-results">
-                        <h3>Results Summary</h3>
+                    <div class="calculator-results" id="calculatorResults">
+                        <h3>Estimated Monthly Payment</h3>
                         <div class="results-grid">
                             <div class="result-item">
-                                <span class="result-label">Monthly Ownership Cost:</span>
-                                <span class="result-value" id="monthly-cost">$3,858</span>
+                                <span class="result-label">Principal & Interest</span>
+                                <span class="result-value" id="principalInterest"></span>
                             </div>
-                            
                             <div class="result-item">
-                                <span class="result-label">Monthly Savings vs. Renting:</span>
-                                <span class="result-value" id="monthly-savings">$3,642</span>
+                                <span class="result-label">Property Taxes</span>
+                                <span class="result-value" id="propertyTaxes"></span>
                             </div>
-                            
                             <div class="result-item">
-                                <span class="result-label">Total Cost of Ownership (10y):</span>
-                                <span class="result-value" id="total-ownership-cost">$463,000</span>
+                                <span class="result-label">HOA Fees</span>
+                                <span class="result-value" id="hoaFees"></span>
                             </div>
-                            
-                            <div class="result-item">
-                                <span class="result-label">Total Cost of Renting (10y):</span>
-                                <span class="result-value" id="total-rental-cost">$999,350</span>
-                            </div>
-                            
-                            <div class="result-item">
-                                <span class="result-label">Projected Property Value (10y):</span>
-                                <span class="result-value" id="projected-value">$2,100,000</span>
-                            </div>
-                            
-                            <div class="result-item highlight-result">
-                                <span class="result-label">Net Financial Advantage of Buying:</span>
-                                <span class="result-value" id="net-advantage">$1,636,350</span>
+                            <div class="result-item total">
+                                <span class="result-label">Total Monthly Payment</span>
+                                <span class="result-value" id="totalPayment"></span>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-
-        <section class="additional-considerations">
+        <section class="financing-options">
             <div class="container">
-                <h2>Additional Financial Considerations</h2>
-                
-                <div class="consideration-cards">
-                    <div class="consideration-card">
-                        <h3>Tax Benefits</h3>
-                        <p>Homeowners can deduct mortgage interest and property taxes, potentially saving thousands annually depending on your tax bracket. Consult with a tax professional for personalized tax advice.</p>
+                <h2>Financing Options</h2>
+                <div class="options-grid">
+                    <div class="option-item">
+                        <h3>Conventional Financing</h3>
+                        <ul class="option-features">
+                            <li>Competitive interest rates</li>
+                            <li>Flexible down payment options</li>
+                            <li>Terms up to 30 years</li>
+                            <li>Fixed and adjustable rates available</li>
+                        </ul>
                     </div>
-                    
-                    <div class="consideration-card">
-                        <h3>W Hollywood Premium</h3>
-                        <p>The W Hollywood brand and location commands a premium in both sales and rental markets, providing stronger appreciation potential compared to standard condominiums.</p>
+                    <div class="option-item">
+                        <h3>Jumbo Loans</h3>
+                        <ul class="option-features">
+                            <li>Specialized luxury property financing</li>
+                            <li>Higher lending limits</li>
+                            <li>Competitive rates for qualified buyers</li>
+                            <li>Various term options</li>
+                        </ul>
                     </div>
-                    
-                    <div class="consideration-card">
-                        <h3>Inflation Protection</h3>
-                        <p>Real estate historically outperforms inflation, protecting your wealth while fixed-rate mortgage payments remain stable as rents continue to increase.</p>
-                    </div>
-                    
-                    <div class="consideration-card">
-                        <h3>Exit Strategy</h3>
-                        <p>W Hollywood units maintain strong resale demand and offer excellent rental potential if your circumstances change, providing flexibility and liquidity.</p>
+                    <div class="option-item">
+                        <h3>Portfolio Loans</h3>
+                        <ul class="option-features">
+                            <li>Customized lending solutions</li>
+                            <li>Asset-based qualification options</li>
+                            <li>Flexible terms and conditions</li>
+                            <li>Relationship pricing available</li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="cta-section">
+        <section class="preferred-lenders">
             <div class="container">
-                <h2>Ready to Make a Smart Investment?</h2>
-                <p>Unit 8A represents an exceptional opportunity for both lifestyle and financial benefits.</p>
-                <div
+                <h2>Preferred Lenders</h2>
+                <p class="lead">Our carefully selected lending partners offer exclusive benefits to PW Residences buyers.</p>
+                <div class="lenders-grid">
+                    <div class="lender-item">
+                        <h3>First Republic Bank</h3>
+                        <p>Specialized in luxury property financing with competitive rates</p>
+                        <a href="#contact" class="btn btn-secondary">Request Introduction</a>
+                    </div>
+                    <div class="lender-item">
+                        <h3>City National Bank</h3>
+                        <p>Customized lending solutions for high-value properties</p>
+                        <a href="#contact" class="btn btn-secondary">Request Introduction</a>
+                    </div>
+                    <div class="lender-item">
+                        <h3>Wells Fargo Private Bank</h3>
+                        <p>Comprehensive wealth management and lending services</p>
+                        <a href="#contact" class="btn btn-secondary">Request Introduction</a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <section class="financing-faq">
+            <div class="container">
+                <h2>Frequently Asked Questions</h2>
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <h3>What are the down payment requirements?</h3>
+                        <p>Down payment requirements typically range from 20% to 30% for luxury properties, though specific terms may vary based on the buyer's financial profile and chosen financing program.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>Are interest-only options available?</h3>
+                        <p>Yes, qualified buyers may have access to interest-only payment options through our portfolio lending partners. These programs can be tailored to your specific financial strategy.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>What documents are typically required?</h3>
+                        <p>Required documentation generally includes tax returns, bank statements, investment accounts, and employment verification. Our preferred lenders can provide a detailed checklist based on your situation.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="container">
+                <h2>Connect with a Financing Specialist</h2>
+                <form class="contact-form" action="/submit-finance-inquiry" method="POST">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="preferred-lender">Preferred Lender</label>
+                        <select id="preferred-lender" name="preferred-lender">
+                            <option value="">Select a lender</option>
+                            <option value="first-republic">First Republic Bank</option>
+                            <option value="city-national">City National Bank</option>
+                            <option value="wells-fargo">Wells Fargo Private Bank</option>
+                            <option value="other">Other / No Preference</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Additional Information</label>
+                        <textarea id="message" name="message" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit Inquiry</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="logo-pw">PW</span> Residences
+                    <p>Redefining luxury living in the heart of Hollywood</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#calculator">Calculator</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p>6250 Hollywood Blvd<br>Los Angeles, CA 90028</p>
+                    <p>Phone: (323) 555-0123<br>Email: info@pwresidences.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 PW Residences. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/mortgage-calculator.js"></script>
+</body>
+</html>

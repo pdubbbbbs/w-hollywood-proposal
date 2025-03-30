@@ -3,395 +3,596 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Unit 12B - W Hollywood Residences</title>
-    <meta name="description" content="Explore Unit 12B at W Hollywood Residences - higher floor with panoramic views">
+    <title>Penthouse 12B - PW Residences | Ultimate Luxury Living in Hollywood</title>
+    <meta name="description" content="Experience unparalleled luxury in Penthouse 12B at PW Residences, featuring panoramic views, exclusive amenities, and the finest finishes in Hollywood.">
+    <meta name="keywords" content="PW Residences, Hollywood penthouse, luxury penthouse, Unit 12B, Los Angeles luxury real estate">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <!-- Social Media Meta Tags -->
+    <meta property="og:title" content="Penthouse 12B - PW Residences | Ultimate Luxury Living in Hollywood">
+    <meta property="og:description" content="Experience unparalleled luxury in Penthouse 12B at PW Residences, featuring panoramic views, exclusive amenities, and the finest finishes in Hollywood.">
+    <meta property="og:image" content="https://pwresidences.com/images/12B-living.jpg">
+    <meta property="og:url" content="https://pwresidences.com/12B.html">
 </head>
-<body>
-    <header>
+<body class="penthouse-page">
+    <!-- Top Bar -->
+    <div class="top-bar">
         <div class="container">
-            <div class="logo">
-                <a href="index.html">
-                    <h1>W Hollywood <span>Residences</span></h1>
-                </a>
+            <div class="top-bar-content">
+                <div class="top-bar-contact">
+                    <a href="tel:+13235550123"><i class="icon-phone"></i> (323) 555-0123</a>
+                    <a href="mailto:info@pwresidences.com"><i class="icon-email"></i> info@pwresidences.com</a>
+                </div>
+                <div class="top-bar-social">
+                    <a href="#" aria-label="Follow us on Instagram"><i class="icon-instagram"></i></a>
+                    <a href="#" aria-label="Follow us on Facebook"><i class="icon-facebook"></i></a>
+                    <a href="#" aria-label="Follow us on LinkedIn"><i class="icon-linkedin"></i></a>
+                </div>
             </div>
-            <nav>
-                <ul class="main-menu">
-                    <li><a href="index.html">Home</a></li>
-                    <li class="has-dropdown">
-                        <a href="#">Units</a>
-                        <ul class="dropdown">
-                            <li><a href="12B.html" class="active">Unit 12B</a></li>
-                            <li><a href="10N.html">Unit 10N</a></li>
-                            <li><a href="8A.html">Unit 8A</a></li>
-                        </ul>
+        </div>
+    </div>
+
+    <!-- Enhanced Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="index.html" class="logo" aria-label="PW Residences Home">
+                    <span class="logo-pw">PW</span> Residences
+                </a>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
                     </li>
-                    <li><a href="finance.html">Financial Analysis</a></li>
-                    <li><a href="statement.html">Personal Statement</a></li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link active">Residences</a>
+                        <div class="dropdown-menu">
+                            <div class="dropdown-content">
+                                <div class="dropdown-section">
+                                    <h3>Available Units</h3>
+                                    <a href="12B.html" class="dropdown-item active">
+                                        <span class="unit-name">Penthouse 12B</span>
+                                        <span class="unit-price">,850,000</span>
+                                    </a>
+                                    <a href="10N.html" class="dropdown-item">
+                                        <span class="unit-name">Unit 10N</span>
+                                        <span class="unit-price">,150,000</span>
+                                    </a>
+                                    <a href="8A.html" class="dropdown-item">
+                                        <span class="unit-name">Unit 8A</span>
+                                        <span class="unit-price">,950,000</span>
+                                    </a>
+                                </div>
+                                <div class="dropdown-section">
+                                    <h3>Quick Links</h3>
+                                    <a href="#virtual-tour" class="dropdown-item">Virtual Tours</a>
+                                    <a href="#floor-plans" class="dropdown-item">Floor Plans</a>
+                                    <a href="finance.html" class="dropdown-item">Financing Options</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="amenities.html" class="nav-link">Amenities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="finance.html" class="nav-link">Finance</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="statement.html" class="nav-link">About</a>
+                    </li>
                 </ul>
-                <div class="mobile-menu-toggle">
-                    <span></span>
-                    <span></span>
-                    <span></span>
+                <div class="nav-actions">
+                    <button class="search-toggle" aria-label="Toggle search">
+                        <i class="icon-search"></i>
+                    </button>
+                    <a href="#schedule-tour" class="btn btn-primary">Private Showing</a>
+                    <button class="menu-toggle" aria-label="Toggle navigation menu">
+                        <span class="menu-icon"></span>
+                    </button>
                 </div>
             </nav>
+            <!-- Search Panel -->
+            <div class="search-panel" id="searchPanel">
+                <form class="search-form">
+                    <input type="search" placeholder="Search residences, amenities, or features..." aria-label="Search">
+                    <button type="submit" aria-label="Submit search">
+                        <i class="icon-search"></i>
+                    </button>
+                </form>
+            </div>
         </div>
     </header>
 
-    <section class="hero unit-hero">
-        <div class="container">
-            <div class="hero-content">
-                <h1>Unit 12B</h1>
-                <p class="subtitle">Elevated Living with Panoramic Views</p>
-                <div class="cta-container">
-                    <a href="#contact" class="cta-button">Schedule Viewing</a>
-                    <a href="8A.html" class="secondary-cta">See Our Featured Unit 8A</a>
+    <main class="main-content">
+        <!-- Hero Section with Panoramic Video Background -->
+        <section class="hero penthouse-hero">
+            <div class="hero-media">
+                <video autoplay muted loop playsinline poster="images/12B-hero-poster.jpg">
+                    <source src="videos/12B-hero.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="container">
+                <div class="hero-content">
+                    <span class="exclusive-tag">Penthouse Collection</span>
+                    <h1>Penthouse 12B</h1>
+                    <p class="lead">An Unrivaled Expression of Hollywood Luxury</p>
+                    <div class="hero-actions">
+                        <a href="#virtual-tour" class="btn btn-primary">Experience Virtual Tour</a>
+                        <a href="#floor-plans" class="btn btn-outline">View Floor Plans</a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+            <!-- Premium Stats Bar -->
+            <section class="stats-bar penthouse-stats">
+                <div class="container">
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <span class="stat-label">Price</span>
+                            <span class="stat-value">,850,000</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Square Feet</span>
+                            <span class="stat-value">2,450</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Bedrooms</span>
+                            <span class="stat-value">3</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Bathrooms</span>
+                            <span class="stat-value">3.5</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Private Terraces</span>
+                            <span class="stat-value">2</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-    <section class="unit-overview">
-        <div class="container">
-            <div class="unit-details">
-                <div class="price-badge">
-                    <h2>$1,450,000</h2>
-                    <p>HOA: $2,200/month</p>
+            <!-- Penthouse Introduction -->
+            <section class="penthouse-intro">
+                <div class="container">
+                    <div class="intro-content">
+                        <h2>The Crown Jewel of PW Residences</h2>
+                        <p class="lead">Penthouse 12B represents the pinnacle of sophisticated urban living, where every detail has been meticulously crafted to create an unparalleled living experience.</p>
+                        <div class="highlight-features">
+                            <div class="highlight-item">
+                                <i class="icon-views"></i>
+                                <span>270° Panoramic Views</span>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="icon-ceiling"></i>
+                                <span>12' Ceiling Heights</span>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="icon-terrace"></i>
+                                <span>Dual Private Terraces</span>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="icon-privacy"></i>
+                                <span>Private Floor Access</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="unit-specs">
-                    <div class="spec">
-                        <span class="spec-icon bed-icon"></span>
-                        <p>2 Bedrooms</p>
-                    </div>
-                    <div class="spec">
-                        <span class="spec-icon bath-icon"></span>
-                        <p>2.5 Bathrooms</p>
-                    </div>
-                    <div class="spec">
-                        <span class="spec-icon size-icon"></span>
-                        <p>1,780 sq ft</p>
-                    </div>
-                    <div class="spec">
-                        <span class="spec-icon floor-icon"></span>
-                        <p>12th Floor</p>
-                    </div>
-                </div>
-                <div class="unit-description">
-                    <h3>About Unit 12B</h3>
-                    <p>Unit 12B offers the advantage of an elevated position on the 12th floor of the prestigious W Hollywood Residences. This spacious 2-bedroom, 2.5-bathroom unit features panoramic views of the Hollywood Hills and the city skyline, providing a dramatic backdrop for urban living.</p>
-                    <p>While maintaining its original design elements and finishes from when the building was constructed, Unit 12B presents an opportunity for the discerning buyer to customize and update according to their personal taste. <em>Those seeking a completely modernized space might want to consider our fully renovated Unit 8A, which features brand-new premium finishes throughout.</em></p>
-                    <p>The higher floor position offers enhanced privacy and reduced street noise compared to lower units, though the north-facing Unit 8A provides the iconic views of the Hollywood Sign and Griffith Observatory that are particularly sought after.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+            </section>
 
-    <section class="unit-gallery">
-        <div class="container">
-            <h2>Gallery</h2>
-            <div class="gallery-container">
-                <div class="gallery-item main-image">
-                    <img src="images/12B-living.jpg" alt="Unit 12B Living Room with City Views" class="lazy-load">
+            <!-- Luxury Features -->
+            <section class="features penthouse-features">
+                <div class="container">
+                    <h2>Curated Excellence</h2>
+                    <div class="features-grid">
+                        <div class="feature-category">
+                            <h3>Bespoke Finishes</h3>
+                            <ul class="feature-list">
+                                <li>Hand-selected Calacatta marble</li>
+                                <li>Chevron white oak flooring</li>
+                                <li>Custom bronze fixtures</li>
+                                <li>Venetian plaster walls</li>
+                                <li>Architectural lighting design</li>
+                            </ul>
+                        </div>
+                        <div class="feature-category">
+                            <h3>Chef's Domain</h3>
+                            <ul class="feature-list">
+                                <li>La Cornue range & hood</li>
+                                <li>Dual Sub-Zero PRO 48</li>
+                                <li>Custom Italian cabinetry</li>
+                                <li>Temperature-controlled wine room</li>
+                                <li>Butler's pantry</li>
+                            </ul>
+                        </div>
+                        <div class="feature-category">
+                            <h3>Primary Suite</h3>
+                            <ul class="feature-list">
+                                <li>Private sunrise terrace</li>
+                                <li>Spa-inspired bathroom</li>
+                                <li>Onyx-clad steam shower</li>
+                                <li>Dual dressing rooms</li>
+                                <li>Morning kitchen</li>
+                            </ul>
+                        </div>
+                        <div class="feature-category">
+                            <h3>Exclusive Amenities</h3>
+                            <ul class="feature-list">
+                                <li>Private elevator entry</li>
+                                <li>Smart home automation</li>
+                                <li>Climate-controlled storage</li>
+                                <li>Dedicated service entrance</li>
+                                <li>Two parking spaces</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-                <div class="gallery-grid">
-                    <div class="gallery-item">
-                        <img src="images/12B-kitchen.jpg" alt="Unit 12B Kitchen" class="lazy-load">
-                    </div>
-                    <div class="gallery-item">
-                        <img src="images/12B-master.jpg" alt="Unit 12B Master Bedroom" class="lazy-load">
-                    </div>
-                    <div class="gallery-item">
-                        <img src="images/12B-bath.jpg" alt="Unit 12B Master Bathroom" class="lazy-load">
-                    </div>
-                    <div class="gallery-item">
-                        <img src="images/12B-view.jpg" alt="View from Unit 12B" class="lazy-load">
-                    </div>
-                </div>
-            </div>
-            <div class="gallery-note">
-                <p>Note: Unit 12B features original finishes that have been well-maintained but may benefit from updates. <em>For comparison, Unit 8A showcases a recent comprehensive renovation with premium modern finishes.</em></p>
-            </div>
-        </div>
-    </section>
+            </section>
 
+            <!-- Lifestyle Showcase -->
+            <section class="lifestyle-showcase">
+                <div class="container">
+                    <div class="showcase-grid">
+                        <div class="showcase-item large">
+                            <img src="images/12B-terrace-sunset.jpg" alt="Sunset views from private terrace" loading="lazy">
+                            <div class="showcase-content">
+                                <h3>Elevated Entertainment</h3>
+                                <p>Host sophisticated soirées on your private terrace with breathtaking sunset views.</p>
+                            </div>
+                        </div>
+                        <div class="showcase-item">
+                            <img src="images/12B-wine-room.jpg" alt="Temperature controlled wine room" loading="lazy">
+                            <div class="showcase-content">
+                                <h3>Wine Collection</h3>
+                                <p>A dedicated space for your finest vintages.</p>
+                            </div>
+                        </div>
+                        <div class="showcase-item">
+                            <img src="images/12B-kitchen-detail.jpg" alt="La Cornue range detail" loading="lazy">
+                            <div class="showcase-content">
+                                <h3>Culinary Excellence</h3>
+                                <p>State-of-the-art appliances for the discerning chef.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Virtual Tour Section -->
+            <section id="virtual-tour" class="virtual-tour penthouse-tour">
+                <div class="container">
+                    <h2>Experience Penthouse Living</h2>
+                    <div class="tour-options">
+                        <div class="tour-nav">
+                            <button class="tour-nav-item active" data-view="great-room">Great Room</button>
+                            <button class="tour-nav-item" data-view="kitchen">Chef's Kitchen</button>
+                            <button class="tour-nav-item" data-view="master">Primary Suite</button>
+                            <button class="tour-nav-item" data-view="terrace">Entertainment Terrace</button>
+                            <button class="tour-nav-item" data-view="wine">Wine Room</button>
+                        </div>
+                        <div class="tour-viewer">
+                            <div class="tour-360" id="tourViewer">
+                                <!-- 360 viewer will be initialized here -->
+                            </div>
+                            <div class="tour-controls">
+                                <button class="tour-control" aria-label="Zoom in"><i class="icon-zoom-in"></i></button>
+                                <button class="tour-control" aria-label="Zoom out"><i class="icon-zoom-out"></i></button>
+                                <button class="tour-control" aria-label="Full screen"><i class="icon-fullscreen"></i></button>
+                            </div>
+                        </div>
+                        <div class="tour-description">
+                            <h3>Great Room</h3>
+                            <p>An expansive living space with floor-to-ceiling windows offering panoramic views of Hollywood Hills and Downtown LA. The great room seamlessly connects to the entertainment terrace, creating an indoor-outdoor living experience.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-    <section class="unit-amenities">
-        <div class="container">
-            <h2>Unit Features</h2>
-            <div class="amenities-grid">
-                <div class="amenity-item">
-                    <span class="amenity-icon"></span>
-                    <h3>Elevated Views</h3>
-                    <p>Higher floor position offers extended city views, though without the direct sightlines to the Hollywood Sign found in north-facing units like 8A.</p>
+            <!-- Floor Plans Section -->
+            <section id="floor-plans" class="floor-plans penthouse-plans">
+                <div class="container">
+                    <h2>Residence Layout</h2>
+                    <div class="floor-plan-viewer">
+                        <div class="floor-plan-nav">
+                            <button class="plan-nav-item active" data-plan="full">Complete Layout</button>
+                            <button class="plan-nav-item" data-plan="living">Living & Entertainment</button>
+                            <button class="plan-nav-item" data-plan="master">Primary Wing</button>
+                            <button class="plan-nav-item" data-plan="guest">Guest Wing</button>
+                            <button class="plan-nav-item" data-plan="terraces">Outdoor Spaces</button>
+                        </div>
+                        <div class="plan-display">
+                            <div class="plan-image">
+                                <img src="images/12B-floorplan-main.jpg" alt="Penthouse 12B Complete Floor Plan" id="currentPlan">
+                                <div class="plan-hotspots">
+                                    <!-- Interactive hotspots will be added via JavaScript -->
+                                </div>
+                            </div>
+                            <div class="plan-details">
+                                <div class="plan-measurements">
+                                    <h3>Room Dimensions</h3>
+                                    <ul>
+                                        <li>Great Room: 32' x 24'</li>
+                                        <li>Primary Suite: 22' x 18'</li>
+                                        <li>Guest Suite 1: 16' x 14'</li>
+                                        <li>Guest Suite 2: 15' x 14'</li>
+                                        <li>Chef's Kitchen: 20' x 18'</li>
+                                        <li>Dining Room: 18' x 16'</li>
+                                        <li>Entertainment Terrace: 32' x 12'</li>
+                                        <li>Sunrise Terrace: 22' x 8'</li>
+                                        <li>Wine Room: 12' x 8'</li>
+                                        <li>Butler's Pantry: 10' x 8'</li>
+                                    </ul>
+                                </div>
+                                <div class="plan-features">
+                                    <h3>Notable Features</h3>
+                                    <ul>
+                                        <li>Private elevator entry</li>
+                                        <li>Separate service entrance</li>
+                                        <li>Dual exposure terraces</li>
+                                        <li>12' ceiling heights</li>
+                                    </ul>
+                                </div>
+                                <div class="plan-actions">
+                                    <a href="downloads/12B-floorplan.pdf" class="btn btn-secondary" download>Download Floor Plans</a>
+                                    <button class="btn btn-outline" id="printPlan">Print Floor Plans</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="amenity-item">
-                    <span class="amenity-icon"></span>
-                    <h3>Original Finishes</h3>
-                    <p>Well-maintained original kitchen and bathroom finishes from the building's initial construction, providing an opportunity for personalized updates.</p>
-                </div>
-                <div class="amenity-item">
-                    <span class="amenity-icon"></span>
-                    <h3>Spacious Layout</h3>
-                    <p>Open floor plan with generous room dimensions and standard ceiling height.</p>
-                </div>
-                <div class="amenity-item">
-                    <span class="amenity-icon"></span>
-                    <h3>Smart Home Readiness</h3>
-                    <p>Pre-wired for smart home technology upgrades (note that Unit 8A already features fully integrated smart home systems).</p>
-                </div>
-                <div class="amenity-item">
-                    <span class="amenity-icon"></span>
-                    <h3>Storage Space</h3>
-                    <p>Standard built-in storage options throughout the unit with potential for customization.</p>
-                </div>
-                <div class="amenity-item">
-                    <span class="amenity-icon"></span>
-                    <h3>Balcony</h3>
-                    <p>Private balcony accessible from the living room with city views.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+            </section>
 
-    <section class="floor-plan-section">
-        <div class="container">
-            <h2>Floor Plan & Dimensions</h2>
-            <div class="floor-plan-text">
-                <div class="floor-plan-grid">
-                    <div class="room balcony" data-room="Balcony">
-                        <span class="room-name">Balcony</span>
-                        <span class="room-dim">12' x 6'</span>
+            <!-- Enhanced Gallery Section -->
+            <section id="gallery" class="gallery penthouse-gallery">
+                <div class="container">
+                    <h2>Visual Journey</h2>
+                    <div class="gallery-filters">
+                        <button class="filter-btn active" data-filter="all">All Spaces</button>
+                        <button class="filter-btn" data-filter="living">Living Areas</button>
+                        <button class="filter-btn" data-filter="kitchen">Kitchen & Dining</button>
+                        <button class="filter-btn" data-filter="bedrooms">Suites</button>
+                        <button class="filter-btn" data-filter="outdoor">Outdoor Living</button>
+                        <button class="filter-btn" data-filter="views">City Views</button>
                     </div>
-                    <div class="room living-room" data-room="Living Room">
-                        <span class="room-name">Living Room</span>
-                        <span class="room-dim">20' x 16'</span>
+                    <div class="gallery-grid">
+                        <div class="gallery-item large" data-category="living">
+                            <figure>
+                                <img src="images/12B-great-room.jpg" alt="Penthouse great room with panoramic views" loading="lazy">
+                                <figcaption>
+                                    <h3>Great Room</h3>
+                                    <p>Sophisticated living space with unprecedented views</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="gallery-item" data-category="kitchen">
+                            <figure>
+                                <img src="images/12B-kitchen.jpg" alt="Professional chef's kitchen" loading="lazy">
+                                <figcaption>
+                                    <h3>Chef's Kitchen</h3>
+                                    <p>Professional-grade appliances and custom cabinetry</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="gallery-item" data-category="outdoor">
+                            <figure>
+                                <img src="images/12B-terrace.jpg" alt="Entertainment terrace" loading="lazy">
+                                <figcaption>
+                                    <h3>Entertainment Terrace</h3>
+                                    <p>Outdoor living with endless city views</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="gallery-item" data-category="bedrooms">
+                            <figure>
+                                <img src="images/12B-master.jpg" alt="Primary suite" loading="lazy">
+                                <figcaption>
+                                    <h3>Primary Suite</h3>
+                                    <p>Private sanctuary with morning terrace</p>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="gallery-item panorama" data-category="views">
+                            <figure>
+                                <img src="images/12B-panorama.jpg" alt="270-degree panoramic views" loading="lazy">
+                                <figcaption>
+                                    <h3>Panoramic Vista</h3>
+                                    <p>Breathtaking views from Hollywood Hills to Downtown LA</p>
+                                </figcaption>
+                            </figure>
+                        </div>
                     </div>
-                    <div class="room kitchen" data-room="Kitchen">
-                        <span class="room-name">Kitchen</span>
-                        <span class="room-dim">12' x 10'</span>
-                    </div>
-                    <div class="room dining" data-room="Dining Area">
-                        <span class="room-name">Dining Area</span>
-                        <span class="room-dim">12' x 10'</span>
-                    </div>
-                    <div class="room master-bed" data-room="Master Bedroom">
-                        <span class="room-name">Master Bedroom</span>
-                        <span class="room-dim">15' x 14'</span>
-                    </div>
-                    <div class="room master-bath" data-room="Master Bath">
-                        <span class="room-name">Master Bath</span>
-                        <span class="room-dim">8' x 12'</span>
-                    </div>
-                    <div class="room second-bed" data-room="Second Bedroom">
-                        <span class="room-name">Second Bedroom</span>
-                        <span class="room-dim">12' x 11'</span>
-                    </div>
-                    <div class="room second-bath" data-room="Second Bath">
-                        <span class="room-name">Second Bath</span>
-                        <span class="room-dim">8' x 5'</span>
+                    <div class="gallery-actions">
+                        <button class="btn btn-primary" id="viewAllPhotos">View Full Gallery</button>
+                        <a href="#virtual-tour" class="btn btn-outline">Experience Virtual Tour</a>
                     </div>
                 </div>
-                <div class="floor-plan-details">
-                    <h3>Unit Details</h3>
-                    <ul class="details-list">
-                        <li>Total Area: 1,780 sq ft</li>
-                        <li>Bedrooms: 2</li>
-                        <li>Bathrooms: 2.5</li>
-                        <li>Balcony: Yes</li>
-                        <li>Floor: 12th</li>
-                    </ul>
-                    <p class="floor-plan-note">This text-based representation shows the approximate layout and dimensions of Unit 12B. Each room's dimensions are listed within its respective area.</p>
+            </section>
+            <!-- Location Privileges -->
+            <section class="location penthouse-location">
+                <div class="container">
+                    <h2>Privileged Position</h2>
+                    <div class="location-content">
+                        <div class="map-container">
+                            <div id="penthouses-map" class="interactive-map">
+                                <!-- Map will be initialized via JavaScript -->
+                            </div>
+                            <div class="map-legend">
+                                <button class="legend-item active" data-category="dining">
+                                    <i class="icon-dining"></i> Fine Dining
+                                </button>
+                                <button class="legend-item" data-category="culture">
+                                    <i class="icon-culture"></i> Culture
+                                </button>
+                                <button class="legend-item" data-category="luxury">
+                                    <i class="icon-luxury"></i> Luxury Retail
+                                </button>
+                                <button class="legend-item" data-category="wellness">
+                                    <i class="icon-wellness"></i> Wellness
+                                </button>
+                            </div>
+                        </div>
+                        <div class="location-highlights">
+                            <div class="highlight-category">
+                                <h3>Premier Access</h3>
+                                <ul>
+                                    <li>2 min to Sunset Strip</li>
+                                    <li>7 min to Beverly Hills</li>
+                                    <li>10 min to West Hollywood</li>
+                                    <li>15 min to Century City</li>
+                                </ul>
+                            </div>
+                            <div class="highlight-category">
+                                <h3>Cultural Landmarks</h3>
+                                <ul>
+                                    <li>Private membership clubs</li>
+                                    <li>Michelin-starred restaurants</li>
+                                    <li>Designer boutiques</li>
+                                    <li>Art galleries</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-    </section>
+            </section>
 
-    <section class="building-amenities">
-        <div class="container">
-            <h2>Building Amenities</h2>
-            <p class="amenities-intro">As a resident of W Hollywood, you'll enjoy access to a comprehensive suite of luxury services and amenities that define the pinnacle of Hollywood living.</p>
-            <div class="amenities-grid">
-                <div class="amenity-item">
-                    <span class="amenity-icon"></span>
-                    <h3>24/7 Valet Parking</h3>
-                    <p>Complimentary valet service for residents and guests ensures convenient and secure vehicle storage.</p>
-                </div>
-                <div class="amenity-item">
-                    <span class="amenity-icon"></span>
-                    <h3>Rooftop Pool Deck</h3>
-                    <p>Stunning rooftop pool with panoramic views, cabanas, and lounge areas for relaxation and entertainment.</p>
-                </div>
-                <div class="amenity-item">
-                    <span class="amenity-icon"></span>
-                    <h3>Fitness Center</h3>
-                    <p>State-of-the-art fitness facility with cardio equipment, free weights, and personal training options.</p>
-                </div>
-                <div class="amenity-item">
-                    <span class="amenity-icon"></span>
-                    <h3>Concierge Services</h3>
-                    <p>24-hour concierge to assist with reservations, deliveries, and special requests.</p>
-                </div>
-                <div class="amenity-item">
-                    <span class="amenity-icon"></span>
-                    <h3>Business Center</h3>
-                    <p>Fully-equipped business center with meeting rooms and workstations.</p>
-                </div>
-                <div class="amenity-item">
-                    <span class="amenity-icon"></span>
-                    <h3>Resident Lounge</h3>
-                    <p>Exclusive resident lounge with entertainment options and catering capabilities.</p>
-                </div>
-                <div class="amenity-item">
-                    <span class="amenity-icon"></span>
-                    <h3>Security</h3>
-                    <p>24/7 security personnel and advanced building access control systems.</p>
-                </div>
-                <div class="amenity-item">
-                    <span class="amenity-icon"></span>
-                    <h3>HOA Benefits</h3>
-                    <p>HOA fees include water, gas, insurance, and access to all building amenities.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="unit-comparison" id="compare">
-        <div class="container">
-            <h2>How Unit 12B Compares</h2>
-            <div class="comparison-table-container">
-                <table class="comparison-table">
-                    <thead>
-                        <tr>
-                            <th>Feature</th>
-                            <th>Unit 12B</th>
-                            <th>Unit 8A (Featured)</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Floor</td>
-                            <td>12th Floor</td>
-                            <td>8th Floor</td>
-                        </tr>
-                        <tr>
-                            <td>Views</td>
-                            <td>City Skyline</td>
-                            <td>Hollywood Sign, Griffith Observatory</td>
-                        </tr>
-                        <tr>
-                            <td>Finishes</td>
-                            <td>Original</td>
-                            <td>Newly Renovated Premium</td>
-                        </tr>
-                        <tr>
-                            <td>Kitchen</td>
-                            <td>Standard Appliances</td>
-                            <td>High-end European Appliances</td>
-                        </tr>
-                        <tr>
-                            <td>Flooring</td>
-                            <td>Original Hardwood</td>
-                            <td>New Wide-plank Oak</td>
-                        </tr>
-                        <tr>
-                            <td>Smart Home</td>
-                            <td>Pre-wired</td>
-                            <td>Fully Integrated</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <div class="comparison-note">
-                <p>While Unit 12B offers the advantage of a higher floor, Unit 8A provides superior finishes, iconic views, and move-in ready condition that may represent better overall value for discerning buyers.</p>
-                <p><a href="8A.html" class="text-link">See details for our featured Unit 8A â†’</a></p>
-            </div>
-        </div>
-    </section>
-
-    <section class="neighborhood">
-        <div class="container">
-            <h2>W Hollywood Location</h2>
-            <div class="neighborhood-content">
-                <div class="neighborhood-map">
-                    <img src="images/w-hollywood-map.jpg" alt="Map of W Hollywood and surrounding attractions" class="lazy-load">
-                </div>
-                <div class="neighborhood-details">
-                    <p>Located at the iconic intersection of Hollywood and Vine, the W Hollywood Residences place you at the center of Los Angeles' most vibrant neighborhood. Residents enjoy walkable access to the best dining, entertainment, and cultural attractions that Hollywood has to offer.</p>
-                    <ul class="nearby-attractions">
-                        <li>Steps from the Hollywood Walk of Fame</li>
-                        <li>Adjacent to the Pantages Theatre</li>
-                        <li>Direct access to the Metro Red Line</li>
-                        <li>Minutes from Griffith Park and hiking trails</li>
-                        <li>Close proximity to major studios and production facilities</li>
-                        <li>Surrounded by acclaimed restaurants and nightlife</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="contact-section" id="contact">
-        <div class="container">
-            <h2>Schedule a Viewing</h2>
-            <p class="contact-intro">Interested in seeing Unit 12B in person? Complete the form below to arrange a private viewing or request additional information.</p>
-            <div class="contact-container">
-                <form class="contact-form" id="viewingForm">
-                    <div class="form-group">
-                        <label for="name">Full Name</label>
-                        <input type="text" id="name" name="name" required>
+            <!-- Concierge Services -->
+            <section class="concierge">
+                <div class="container">
+                    <h2>Signature Services</h2>
+                    <div class="services-grid">
+                        <div class="service-item">
+                            <i class="icon-concierge"></i>
+                            <h3>24/7 Concierge</h3>
+                            <p>Dedicated staff for your every need, from travel arrangements to dinner reservations</p>
+                        </div>
+                        <div class="service-item">
+                            <i class="icon-valet"></i>
+                            <h3>Private Valet</h3>
+                            <p>Secured parking with personal valet service</p>
+                        </div>
+                        <div class="service-item">
+                            <i class="icon-security"></i>
+                            <h3>Security</h3>
+                            <p>Round-the-clock security and private elevator access</p>
+                        </div>
+                        <div class="service-item">
+                            <i class="icon-housekeeping"></i>
+                            <h3>Housekeeping</h3>
+                            <p>On-demand housekeeping and maintenance services</p>
+                        </div>
                     </div>
-                    <div class="form-group">
-                        <label for="email">Email Address</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="phone">Phone Number</label>
-                        <input type="tel" id="phone" name="phone">
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message" rows="4"></textarea>
-                    </div>
-                    <button type="submit" class="submit-button">Request Viewing</button>
-                </form>
-                <div class="contact-info">
-                    <h3>Contact Information</h3>
-                    <p><strong>Sales Office:</strong> W Hollywood Residences</p>
-                    <p><strong>Address:</strong> 6250 Hollywood Blvd, Hollywood, CA 90028</p>
-                    <p><strong>Phone:</strong> (323) 798-2500</p>
-                    <p><strong>Email:</strong> sales@whollywoodresidences.com</p>
                 </div>
-            </div>
-        </div>
-    </section>
+            </section>
 
-    <footer>
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-logo">
-                    <h2>W Hollywood <span>Residences</span></h2>
+            <!-- Private Inquiry Section -->
+            <section id="private-inquiry" class="private-inquiry">
+                <div class="container">
+                    <h2>Private Consultation</h2>
+                    <div class="inquiry-container">
+                        <div class="inquiry-content">
+                            <p class="lead">Schedule a private showing of Penthouse 12B with our luxury specialists.</p>
+                            <div class="contact-options">
+                                <div class="contact-item">
+                                    <i class="icon-phone"></i>
+                                    <span>Direct Line</span>
+                                    <a href="tel:+13235550123">(323) 555-0123</a>
+                                </div>
+                                <div class="contact-item">
+                                    <i class="icon-email"></i>
+                                    <span>Email</span>
+                                    <a href="mailto:penthouse@pwresidences.com">penthouse@pwresidences.com</a>
+                                </div>
+                            </div>
+                        </div>
+                        <form class="inquiry-form" action="/submit-penthouse-inquiry" method="POST">
+                            <div class="form-grid">
+                                <div class="form-group">
+                                    <label for="name">Full Name</label>
+                                    <input type="text" id="name" name="name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email Address</label>
+                                    <input type="email" id="email" name="email" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone">Phone Number</label>
+                                    <input type="tel" id="phone" name="phone" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="preferred-time">Preferred Contact Time</label>
+                                    <select id="preferred-time" name="preferred-time">
+                                        <option value="morning">Morning (9AM - 12PM)</option>
+                                        <option value="afternoon">Afternoon (12PM - 5PM)</option>
+                                        <option value="evening">Evening (5PM - 8PM)</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Additional Information</label>
+                                <textarea id="message" name="message" rows="4"></textarea>
+                            </div>
+                            <div class="form-actions">
+                                <button type="submit" class="btn btn-primary">Request Private Showing</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
-                <div class="footer-links">
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="12B.html">Unit 12B</a></li>
-                        <li><a href="10N.html">Unit 10N</a></li>
-                        <li><a href="8A.html">Unit 8A</a></li>
-                        <li><a href="finance.html">Financial Analysis</a></li>
-                        <li><a href="statement.html">Personal Statement</a></li>
-                    </ul>
-                </div>
-                <div class="footer-contact">
-                    <p>6250 Hollywood Blvd, Hollywood, CA 90028</p>
-                    <p>(323) 798-2500</p>
-                </div>
-            </div>
-            <div class="footer-disclaimer">
-                <p>This is a proposal website for educational purposes. Not an official W Hollywood Residences website.</p>
-            </div>
-        </div>
-    </footer>
+            </section>
+        </main>
 
-    <script src="js/main.js"></script>
-</body>
-</html>
+        <!-- Enhanced Footer -->
+        <footer class="footer penthouse-footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-brand">
+                        <span class="logo-pw">PW</span> Residences
+                        <p>Redefining luxury living in the heart of Hollywood</p>
+                        <div class="social-links">
+                            <a href="#" aria-label="Follow us on Instagram"><i class="icon-instagram"></i></a>
+                            <a href="#" aria-label="Follow us on Facebook"><i class="icon-facebook"></i></a>
+                            <a href="#" aria-label="Follow us on LinkedIn"><i class="icon-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-navigation">
+                        <div class="footer-links">
+                            <h3>Quick Links</h3>
+                            <ul>
+                                <li><a href="#virtual-tour">Virtual Tour</a></li>
+                                <li><a href="#floor-plans">Floor Plans</a></li>
+                                <li><a href="#gallery">Photo Gallery</a></li>
+                                <li><a href="#private-inquiry">Private Showing</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-links">
+                            <h3>Other Residences</h3>
+                            <ul>
+                                <li><a href="10N.html">Unit 10N</a></li>
+                                <li><a href="8A.html">Unit 8A</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-contact">
+                        <h3>Contact Us</h3>
+                        <p>6250 Hollywood Blvd<br>Los Angeles, CA 90028</p>
+                        <p>Penthouse Inquiries: (323) 555-0123<br>Email: penthouse@pwresidences.com</p>
+                        <button class="btn btn-outline" id="footerContact">Contact Sales Team</button>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2025 PW Residences. All rights reserved.</p>
+                    <div class="footer-legal">
+                        <a href="privacy.html">Privacy Policy</a>
+                        <a href="terms.html">Terms of Use</a>
+                        <a href="accessibility.html">Accessibility</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Scripts -->
+        <script src="js/virtual-tour.js"></script>
+        <script src="js/floor-plan-viewer.js"></script>
+        <script src="js/gallery.js"></script>
+        <script src="js/neighborhood-map.js"></script>
+        <script src="js/inquiry-form.js"></script>
+    </body>
+    </html>
