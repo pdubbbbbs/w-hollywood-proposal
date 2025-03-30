@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Security Operations Center</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <style>
+        .dashboard-card {
+            backdrop-filter: blur(10px);
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            transition: transform 0.3s ease;
+        }
+        .dashboard-card:hover {
+            transform: translateY(-5px);
+        }
+        .glow {
+            box-shadow: 0 0 15px rgba(255, 192, 203, 0.5);
+        }
+        body {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: #fff;
+        }
+        .metric-value {
+            font-size: 2rem;
+            color: #ff69b4;
+        }
+    </style>
+</head>
+<body class="min-h-screen">
+    <nav class="bg-black text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="logo">
+                <a href="../index.html" class="text-pink-300 font-bold text-xl">W Hollywood Residences</a>
+            </div>
+            <ul class="flex space-x-6">
+                <li><a href="../index.html" class="hover:text-pink-300">Home</a></li>
+                <li><a href="../8A.html" class="hover:text-pink-300">Unit 8A</a></li>
+                <li><a href="../10N.html" class="hover:text-pink-300">Unit 10N</a></li>
+                <li><a href="../12B.html" class="hover:text-pink-300">Unit 12B</a></li>
+                <li><a href="../security-dashboard" class="hover:text-pink-300">Security Dashboard</a></li>
+                <li><a href="../security-expertise" class="hover:text-pink-300">Security Portfolio</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container mx-auto p-8">
+        <header class="text-center mb-12">
+            <h1 class="text-4xl font-bold mb-4">Security Operations Center</h1>
+            <p class="text-xl text-pink-300">Real-time Security Monitoring & Analytics</p>
+        </header>
+
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
+            <div class="dashboard-card rounded-lg p-6 glow">
+                <h3 class="text-lg font-semibold mb-2">Threat Level</h3>
+                <div class="metric-value">Low</div>
+                <p class="text-sm text-gray-300">Current Status</p>
+            </div>
+            <div class="dashboard-card rounded-lg p-6 glow">
+                <h3 class="text-lg font-semibold mb-2">Active Defenses</h3>
+                <div class="metric-value">100%</div>
+                <p class="text-sm text-gray-300">Systems Online</p>
+            </div>
+            <div class="dashboard-card rounded-lg p-6 glow">
+                <h3 class="text-lg font-semibold mb-2">Monitored Assets</h3>
+                <div class="metric-value">147</div>
+                <p class="text-sm text-gray-300">Protected Systems</p>
+            </div>
+            <div class="dashboard-card rounded-lg p-6 glow">
+                <h3 class="text-lg font-semibold mb-2">Response Time</h3>
+                <div class="metric-value">&lt;1m</div>
+                <p class="text-sm text-gray-300">Average Response</p>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+            <div class="dashboard-card rounded-lg p-6 glow">
+                <h3 class="text-xl font-semibold mb-4">Network Activity</h3>
+                <canvas id="networkChart" height="250"></canvas>
+            </div>
+            <div class="dashboard-card rounded-lg p-6 glow">
+                <h3 class="text-xl font-semibold mb-4">Security Events</h3>
+                <canvas id="eventsChart" height="250"></canvas>
+            </div>
+        </div>
+
+        <div class="dashboard-card rounded-lg p-6 glow mb-8">
+            <h3 class="text-xl font-semibold mb-4">Real-time Security Events</h3>
+            <div id="eventLog" class="space-y-4">
+                <div class="flex justify-between items-center border-b border-gray-700 pb-2">
+                    <div>
+                        <p class="font-semibold">Firewall Update</p>
+                        <p class="text-sm text-gray-300">System security patch applied</p>
+                    </div>
+                    <span class="text-green-400">Completed</span>
+                </div>
+                <div class="flex justify-between items-center border-b border-gray-700 pb-2">
+                    <div>
+                        <p class="font-semibold">Intrusion Detection</p>
+                        <p class="text-sm text-gray-300">Analyzed and blocked suspicious IP</p>
+                    </div>
+                    <span class="text-green-400">Resolved</span>
+                </div>
+                <div class="flex justify-between items-center">
+                    <div>
+                        <p class="font-semibold">Security Scan</p>
+                        <p class="text-sm text-gray-300">Complete system vulnerability scan</p>
+                    </div>
+                    <span class="text-blue-400">In Progress</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="dashboard-card rounded-lg p-6 glow">
+                <h3 class="text-xl font-semibold mb-4">Security Score</h3>
+                <canvas id="scoreChart" height="250"></canvas>
+            </div>
+            <div class="dashboard-card rounded-lg p-6 glow">
+                <h3 class="text-xl font-semibold mb-4">System Health</h3>
+                <div class="space-y-4">
+                    <div class="flex items-center justify-between">
+                        <span>Firewall Protection</span>
+                        <span class="px-2 py-1 bg-green-500 rounded text-xs">Active</span>
+                    </div>
+                    <div class="flex items-center justify-between">
+                        <span>Intrusion Prevention</span>
+                        <span class="px-2 py-1 bg-green-500 rounded text-xs">Active</span>
+                    </div>
+                    <div class="flex items-center justify-between">
+                        <span>Data Encryption</span>
+                        <span class="px-2 py-1 bg-green-500 rounded text-xs">Active</span>
+                    </div>
+                    <div class="flex items-center justify-between">
+                        <span>Access Control</span>
+                        <span class="px-2 py-1 bg-green-500 rounded text-xs">Active</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Network Activity Chart
+            new Chart(document.getElementById('networkChart').getContext('2d'), {
+                type: 'line',
+                data: {
+                    labels: Array.from({length: 6}, (_, i) => moment().subtract(i, 'hours').format('HH:mm')).reverse(),
+                    datasets: [{
+                        label: 'Network Traffic',
+                        data: [65, 59, 80, 81, 56, 55],
+                        borderColor: '#ff69b4',
+                        tension: 0.4
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            grid: { color: 'rgba(255,255,255,0.1)' }
+                        },
+                        x: {
+                            grid: { color: 'rgba(255,255,255,0.1)' }
+                        }
+                    }
+                }
+            });
+
+            // Security Events Chart
+            new Chart(document.getElementById('eventsChart').getContext('2d'), {
+                type: 'bar',
+                data: {
+                    labels: ['Critical', 'High', 'Medium', 'Low'],
+                    datasets: [{
+                        label: 'Security Events',
+                        data: [2, 5, 15, 30],
+                        backgroundColor: [
+                            '#ef4444',
+                            '#f97316',
+                            '#eab308',
+                            '#22c55e'
+                        ]
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            grid: { color: 'rgba(255,255,255,0.1)' }
+                        },
+                        x: {
+                            grid: { color: 'rgba(255,255,255,0.1)' }
+                        }
+                    }
+                }
+            });
+
+            // Security Score Chart
+            new Chart(document.getElementById('scoreChart').getContext('2d'), {
+                type: 'doughnut',
+                data: {
+                    labels: ['Secure', 'Warning', 'Critical'],
+                    datasets: [{
+                        data: [85, 10, 5],
+                        backgroundColor: ['#22c55e', '#eab308', '#ef4444']
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            position: 'bottom'
+                        }
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>
