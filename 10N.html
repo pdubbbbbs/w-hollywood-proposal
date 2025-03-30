@@ -108,7 +108,7 @@
         <!-- Hero Section with Video Background -->
         <section class="hero unit-hero">
             <div class="hero-media">
-                <video autoplay muted loop playsinline poster="images/10N-hero-poster.jpg">
+                <video autoplay muted loop playsinline poster="images/10N/unit_10N_image_1.jpg">
                     <source src="videos/10N-hero.mp4" type="video/mp4">
                 </video>
             </div>
@@ -266,77 +266,50 @@
             </section>
 
             <!-- Enhanced Gallery Section -->
+            <!-- Enhanced Gallery Section -->
             <section class="gallery">
                 <div class="container">
                     <h2>Photo Gallery</h2>
-                    <div class="gallery-filters">
-                        <button class="filter-btn active" data-filter="all">All</button>
-                        <button class="filter-btn" data-filter="living">Living Spaces</button>
-                        <button class="filter-btn" data-filter="kitchen">Kitchen</button>
-                        <button class="filter-btn" data-filter="bedrooms">Bedrooms</button>
-                        <button class="filter-btn" data-filter="views">City Views</button>
-                    </div>
-                    <div class="gallery-grid">
-                        <div class="gallery-item" data-category="living">
-                            <figure>
-                                <img src="images/10N-living-1.jpg" alt="Expansive great room with city views" loading="lazy">
-                                <figcaption>
-                                    <h3>Great Room</h3>
-                                    <p>Floor-to-ceiling windows frame spectacular city views</p>
-                                </figcaption>
-                            </figure>
+                    <p class="section-subtitle text-center">Experience the sophistication of Unit 10N through our curated collection of images</p>
+                    
+                    <div class="gallery-rolodex">
+                        <div class="gallery-slide active">
+                            <img src="images/10N/unit_10N_image_1.jpg" alt="Living room with panoramic views">
+                            <div class="gallery-info">
+                                <h3>Living Room</h3>
+                                <p>Expansive living space with floor-to-ceiling windows</p>
+                            </div>
                         </div>
-                        <div class="gallery-item" data-category="kitchen">
-                            <figure>
-                                <img src="images/10N-kitchen-1.jpg" alt="Professional chef's kitchen" loading="lazy">
-                                <figcaption>
-                                    <h3>Chef's Kitchen</h3>
-                                    <p>Professional-grade appliances and custom cabinetry</p>
-                                </figcaption>
-                            </figure>
+                        <div class="gallery-slide">
+                            <img src="images/10N/unit_10N_image_2.jpg" alt="Chef's kitchen">
+                            <div class="gallery-info">
+                                <h3>Chef's Kitchen</h3>
+                                <p>Professional-grade appliances and custom cabinetry</p>
+                            </div>
                         </div>
-                        <div class="gallery-item" data-category="bedrooms">
-                            <figure>
-                                <img src="images/10N-master-1.jpg" alt="Luxurious master suite" loading="lazy">
-                                <figcaption>
-                                    <h3>Master Suite</h3>
-                                    <p>Private sanctuary with morning terrace access</p>
-                                </figcaption>
-                            </figure>
-                        </div>
-                        <div class="gallery-item" data-category="views">
-                            <figure>
-                                <img src="images/10N-view-sunset.jpg" alt="Stunning sunset views" loading="lazy">
-                                <figcaption>
-                                    <h3>Sunset Views</h3>
-                                    <p>Spectacular sunsets over the Hollywood Hills</p>
-                                </figcaption>
-                            </figure>
-                        </div>
-                        <div class="gallery-item" data-category="living">
-                            <figure>
-                                <img src="images/10N-lounge-1.jpg" alt="Private lounge area" loading="lazy">
-                                <figcaption>
-                                    <h3>Private Lounge</h3>
-                                    <p>Intimate space perfect for relaxation or entertainment</p>
-                                </figcaption>
-                            </figure>
-                        </div>
-                        <div class="gallery-item" data-category="bedrooms">
-                            <figure>
-                                <img src="images/10N-master-bath.jpg" alt="Spa-inspired master bathroom" loading="lazy">
-                                <figcaption>
-                                    <h3>Master Bath</h3>
-                                    <p>Luxury spa retreat with heated marble floors</p>
-                                </figcaption>
-                            </figure>
+                        <div class="gallery-slide">
+                            <img src="images/10N/unit_10N_image_3.jpg" alt="Master bedroom">
+                            <div class="gallery-info">
+                                <h3>Master Suite</h3>
+                                <p>Luxurious master bedroom with morning terrace access</p>
+                            </div>
                         </div>
                     </div>
+                    
+                    <div class="gallery-nav">
+                        <div class="gallery-dots">
+                            <button class="gallery-dot active" data-slide="0" aria-label="View Living Room"></button>
+                            <button class="gallery-dot" data-slide="1" aria-label="View Kitchen"></button>
+                            <button class="gallery-dot" data-slide="2" aria-label="View Master Suite"></button>
+                        </div>
+                    </div>
+                    
                     <div class="gallery-actions">
-                        <button class="btn btn-primary" id="viewAllPhotos">View All Photos</button>
-                        <a href="#virtual-tour" class="btn btn-outline">Take Virtual Tour</a>
+                        <a href="#virtual-tour" class="btn btn-primary">Take Virtual Tour</a>
+                        <a href="#floor-plans" class="btn btn-outline">View Floor Plans</a>
                     </div>
                 </div>
+            </section>
             </section>
             <!-- Neighborhood Section -->
             <section class="neighborhood">
@@ -535,7 +508,7 @@
                     </div>
                 </div>
                 <div class="footer-bottom">
-                    <p>&copy; 2025 PW Residences. All rights reserved.</p>
+                    <p>&copy; 2025 PW Residences. All rights reserved. Images courtesy of <a href="https://unsplash.com" target="_blank" rel="noopener noreferrer">Unsplash</a>.</p>
                     <div class="footer-legal">
                         <a href="privacy.html">Privacy Policy</a>
                         <a href="terms.html">Terms of Use</a>
