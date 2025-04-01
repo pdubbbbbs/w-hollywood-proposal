@@ -3,480 +3,297 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Unit 8A - PW Residences | Luxury Living</title>
-    <meta name="description" content="Explore Unit 8A at PW Residences - where contemporary elegance meets urban sophistication in the heart of Hollywood.">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Unit 8A - W Hollywood Residences</title>
+    <meta name="description" content="Explore the premium features of Unit 8A at W Hollywood Residences, featuring a recent high-quality remodel and stunning north-facing views.">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header class="header">
-        <div class="container">
-            <nav class="nav">
-                <a href="index.html" class="logo">
-                    <span class="logo-pw">PW</span> Residences
-                </a>
-                <ul class="nav-list">
-                    <li class="nav-item">
-                        <a href="index.html" class="nav-link">Home</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a href="#" class="nav-link active">Units</a>
-                        <div class="dropdown-menu">
-                            <a href="12B.html" class="dropdown-item">Unit 12B</a>
-                            <a href="10N.html" class="dropdown-item">Unit 10N</a>
-                            <a href="8A.html" class="dropdown-item">Unit 8A</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a href="finance.html" class="nav-link">Finance</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="statement.html" class="nav-link">Statement</a>
-                    </li>
-                </ul>
-                <button class="menu-toggle" aria-label="Toggle navigation menu">
-                    <span class="menu-icon"></span>
-                </button>
-            </nav>
+    <header>
+        <div class="logo">
+            <h1>W Hollywood Residences</h1>
         </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="#" class="active">Units</a>
+                    <div class="dropdown-content">
+                        <a href="12B.html">Unit 12B</a>
+                        <a href="10N.html">Unit 10N</a>
+                        <a href="8A.html" class="active">Unit 8A</a>
+                    </div>
+                </li>
+                <li><a href="finance.html">Finance</a></li>
+                <li><a href="statement.html">Statement</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <main class="main-content">
-        <!-- Hero Section with Large Feature Image -->
+    <main>
         <section class="hero unit-hero">
-                <div class="hero-media">
-                    <video autoplay muted loop playsinline poster="images/8A/unit_8A_image_1.jpg">
-                        <source src="videos/8A-hero.mp4" type="video/mp4">
-                    </video>
-                </div>
-                <div class="container">
-                    <div class="hero-content">
-                        <h1>Unit 8A</h1>
-                        <p class="lead">Where Contemporary Elegance Meets Urban Sophistication</p>
-                        <div class="hero-actions">
-                            <a href="#virtual-tour" class="btn btn-primary">Take Virtual Tour</a>
-                            <a href="#floor-plans" class="btn btn-outline">View Floor Plans</a>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            <div class="hero-content">
+                <h2>Unit 8A - Premium Luxury Living</h2>
+                <p>Discover the crown jewel of W Hollywood Residences, featuring a recent high-quality remodel and breathtaking north-facing views.</p>
+            </div>
+        </section>
 
-            <!-- Quick Stats Bar -->
-            <section class="stats-bar">
-                <div class="container">
-                    <div class="stats-grid">
-                        <div class="stat-item">
-                            <span class="stat-label">Price</span>
-                            <span class="stat-value">,950,000</span>
-                        </div>
-                        <div class="stat-item">
-                            <span class="stat-label">Square Feet</span>
-                            <span class="stat-value">1,750</span>
-                        </div>
-                        <div class="stat-item">
-                            <span class="stat-label">Bedrooms</span>
-                            <span class="stat-value">2</span>
-                        </div>
-                        <div class="stat-item">
-                            <span class="stat-label">Bathrooms</span>
-                            <span class="stat-value">2.5</span>
-                        </div>
-                        <div class="stat-item">
-                            <span class="stat-label">Floor</span>
-                            <span class="stat-value">8th</span>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Virtual Tour Section -->
-            <section id="virtual-tour" class="virtual-tour">
-                <div class="container">
-                    <h2>Experience Unit 8A</h2>
-                    <div class="tour-options">
-                        <div class="tour-nav">
-                            <button class="tour-nav-item active" data-view="living">Living Room</button>
-                            <button class="tour-nav-item" data-view="kitchen">Kitchen</button>
-                            <button class="tour-nav-item" data-view="master">Master Suite</button>
-                            <button class="tour-nav-item" data-view="terrace">Private Terrace</button>
-                        </div>
-                        <div class="tour-viewer">
-                            <div class="tour-360" id="tourViewer">
-                                <!-- 360 viewer will be initialized here -->
-                            </div>
-                            <div class="tour-controls">
-                                <button class="tour-control" aria-label="Zoom in"><i class="icon-zoom-in"></i></button>
-                                <button class="tour-control" aria-label="Zoom out"><i class="icon-zoom-out"></i></button>
-                                <button class="tour-control" aria-label="Full screen"><i class="icon-fullscreen"></i></button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Luxury Features & Amenities -->
-            <section class="features section">
-                <div class="container">
-                    <h2>Luxury Features & Amenities</h2>
-                    <p class="section-subtitle text-center">Impeccable craftsmanship and premium finishes create an unparalleled living experience</p>
-                    
-                    <div class="luxury-features">
-                        <div class="feature-card">
-                            <div class="feature-icon">✧</div>
-                            <h3 class="feature-title">Interior Finishes</h3>
-                            <ul>
-                                <li>Italian Calacatta marble countertops</li>
-                                <li>European white oak herringbone flooring</li>
-                                <li>Floor-to-ceiling NanaWall windows</li>
-                                <li>Lutron smart home automation system</li>
-                                <li>Custom Arteriors lighting package</li>
-                            </ul>
-                        </div>
-                        
-                        <div class="feature-card">
-                            <div class="feature-icon">✧</div>
-                            <h3 class="feature-title">Chef's Kitchen</h3>
-                            <ul>
-                                <li>Wolf 48" dual-fuel range with double oven</li>
-                                <li>Sub-Zero Pro 48" side-by-side refrigerator</li>
-                                <li>Miele Diamond dishwasher with custom panel</li>
-                                <li>Dual-zone wine refrigeration (100-bottle capacity)</li>
-                                <li>Hand-crafted Bulthaup cabinetry with soft-close</li>
-                            </ul>
-                        </div>
-                        
-                        <div class="feature-card">
-                            <div class="feature-icon">✧</div>
-                            <h3 class="feature-title">Master Sanctuary</h3>
-                            <ul>
-                                <li>Bespoke walk-in closet with custom organization</li>
-                                <li>Spa-inspired Porcelanosa marble bathroom</li>
-                                <li>Steam shower with rainfall and body sprays</li>
-                                <li>Victoria + Albert freestanding soaking tub</li>
-                                <li>Private terrace access with city views</li>
-                            </ul>
-                        </div>
-                        
-                        <div class="feature-card">
-                            <div class="feature-icon">✧</div>
-                            <h3 class="feature-title">Signature Services</h3>
-                            <ul>
-                                <li>24/7 dedicated concierge by Les Clefs d'Or</li>
-                                <li>Valet parking with electric vehicle charging</li>
-                                <li>Fully-equipped Equinox-designed fitness center</li>
-                                <li>Rooftop infinity pool and entertainment lounge</li>
-                                <li>Private residential entrance with biometric security</li>
-                            </ul>
-            <!-- Floor Plans Section -->
-            <section id="floor-plans" class="floor-plans">
-                <div class="container">
-                    <h2>Floor Plans & Dimensions</h2>
-                    <div class="floor-plan-viewer">
-                        <div class="floor-plan-nav">
-                            <button class="plan-nav-item active" data-plan="main">Main Layout</button>
-                            <button class="plan-nav-item" data-plan="master">Master Suite</button>
-                            <button class="plan-nav-item" data-plan="kitchen">Kitchen & Living</button>
-                            <button class="plan-nav-item" data-plan="terrace">Terrace</button>
-                        </div>
-                        <div class="plan-display">
-                            <div class="plan-image">
-                                <img src="images/8A-floorplan-main.jpg" alt="Unit 8A Main Floor Plan" id="currentPlan">
-                                <div class="plan-hotspots">
-                                    <!-- Interactive hotspots will be added via JavaScript -->
-                                </div>
-                            </div>
-                            <div class="plan-details">
-                                <div class="plan-measurements">
-                                    <h3>Room Dimensions</h3>
-                                    <ul>
-                                        <li>Living Room: 20' x 15'</li>
-                                        <li>Master Bedroom: 16' x 14'</li>
-                                        <li>Second Bedroom: 14' x 12'</li>
-                                        <li>Kitchen: 12' x 15'</li>
-                                        <li>Dining Area: 12' x 10'</li>
-                                        <li>Private Terrace: 20' x 6'</li>
-                                    </ul>
-                                </div>
-                                <div class="plan-actions">
-                                    <a href="downloads/8A-floorplan.pdf" class="btn btn-secondary" download>Download PDF</a>
-                                    <button class="btn btn-outline" id="printPlan">Print Floor Plan</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Rolodex Gallery Section -->
-            <section class="gallery" id="gallery">
-                <div class="container">
-                    <h2>Immersive Photo Gallery</h2>
-                    <p class="section-subtitle text-center">Experience the elegance of Unit 8A through our curated collection of images</p>
-                    
-                    <!-- Gallery Rolodex -->
-                    <div class="gallery-rolodex">
-                        <div class="gallery-container">
-                            <div class="gallery-slide active">
-                                <img src="images/8A/unit_8A_image_1.jpg" alt="Spacious living room with city views">
-                                <div class="gallery-info">
-                                    <h3>Living Room</h3>
-                                    <p>Expansive windows frame stunning city views with natural light flooding the space</p>
-                                </div>
-                            </div>
-                            <div class="gallery-slide">
-                                <img src="images/8A/unit_8A_image_2.jpg" alt="Gourmet kitchen with premium appliances">
-                                <div class="gallery-info">
-                                    <h3>Gourmet Kitchen</h3>
-                                    <p>Professional-grade appliances and custom cabinetry designed for entertaining</p>
-                                </div>
-                            </div>
-                            <div class="gallery-slide">
-                                <img src="images/8A/unit_8A_image_3.jpg" alt="Master bedroom suite">
-                                <div class="gallery-info">
-                                    <h3>Master Suite</h3>
-                                    <p>Serene retreat with private terrace access and custom lighting</p>
-                                </div>
-                            </div>
-                            <div class="gallery-slide">
-                                <img src="images/8A/unit_8A_image_4.jpg" alt="Panoramic city views">
-                                <div class="gallery-info">
-                                    <h3>City Views</h3>
-                                    <p>Breathtaking panoramas of the Hollywood Hills from your private terrace</p>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <button class="gallery-ctrl gallery-prev" aria-label="Previous image">&#10094;</button>
-                        <button class="gallery-ctrl gallery-next" aria-label="Next image">&#10095;</button>
-                        
-                        <div class="gallery-nav">
-                            <div class="gallery-dots">
-                                <button class="gallery-dot active" data-slide="0" aria-label="View Living Room"></button>
-                                <button class="gallery-dot" data-slide="1" aria-label="View Kitchen"></button>
-                                <button class="gallery-dot" data-slide="2" aria-label="View Master Suite"></button>
-                                <button class="gallery-dot" data-slide="3" aria-label="View City Views"></button>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="gallery-actions">
-                        <a href="#virtual-tour" class="btn btn-primary">Take Virtual Tour</a>
-                        <a href="#floor-plans" class="btn btn-outline">View Floor Plans</a>
-                    </div>
-                </div>
-            </section>
-            <!-- Neighborhood Section -->
-            <section class="neighborhood">
-                <div class="container">
-                    <h2>Location & Lifestyle</h2>
-                    <div class="neighborhood-content">
-                        <div class="map-container">
-                            <div id="neighborhoodMap" class="interactive-map">
-                                <!-- Map will be initialized via JavaScript -->
-                            </div>
-                            <div class="map-legend">
-                                <button class="legend-item active" data-category="dining">
-                                    <i class="icon-dining"></i> Dining
-                                </button>
-                                <button class="legend-item" data-category="entertainment">
-                                    <i class="icon-entertainment"></i> Entertainment
-                                </button>
-                                <button class="legend-item" data-category="shopping">
-                                    <i class="icon-shopping"></i> Shopping
-                                </button>
-                                <button class="legend-item" data-category="parks">
-                                    <i class="icon-parks"></i> Parks
-                                </button>
-                            </div>
-                        </div>
-                        <div class="neighborhood-highlights">
-                            <div class="highlight-category">
-                                <h3>Minutes Away</h3>
-                                <ul>
-                                    <li>5 min to Sunset Strip</li>
-                                    <li>10 min to Beverly Hills</li>
-                                    <li>15 min to Downtown LA</li>
-                                    <li>20 min to Santa Monica</li>
-                                </ul>
-                            </div>
-                            <div class="highlight-category">
-                                <h3>Local Favorites</h3>
-                                <ul>
-                                    <li>Nobu Hollywood</li>
-                                    <li>Chateau Marmont</li>
-                                    <li>Hollywood Bowl</li>
-                                    <li>Runyon Canyon Park</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Enhanced Contact Section -->
-            <section id="schedule-tour" class="schedule-tour">
-                <div class="container">
-                    <h2>Schedule Your Private Tour</h2>
-                    <div class="scheduler-container">
-                        <div class="scheduler-options">
-                            <div class="tour-types">
-                                <h3>Select Tour Type</h3>
-                                <div class="tour-type-selector">
-                                    <input type="radio" id="in-person" name="tour-type" value="in-person" checked>
-                                    <label for="in-person">
-                                        <i class="icon-person"></i>
-                                        <span>In-Person Tour</span>
-                                    </label>
-                                    
-                                    <input type="radio" id="virtual" name="tour-type" value="virtual">
-                                    <label for="virtual">
-                                        <i class="icon-video"></i>
-                                        <span>Virtual Tour</span>
-                                    </label>
-                                </div>
-                            </div>
-                            
-                            <div class="date-picker">
-                                <h3>Select Preferred Date & Time</h3>
-                                <div id="tourCalendar" class="calendar-widget">
-                                    <!-- Calendar will be initialized via JavaScript -->
-                                </div>
-                                <div class="time-slots">
-                                    <!-- Time slots will be populated via JavaScript -->
-                                </div>
-                            </div>
-                        </div>
-
-                        <form class="contact-form" action="/submit-tour-request" method="POST">
-                            <div class="form-grid">
-                                <div class="form-group">
-                                    <label for="name">Full Name</label>
-                                    <input type="text" id="name" name="name" required>
-                                </div>
-                                <div class="form-group">
-                                    <label for="email">Email Address</label>
-                                    <input type="email" id="email" name="email" required>
-                                </div>
-                                <div class="form-group">
-                                    <label for="phone">Phone Number</label>
-                                    <input type="tel" id="phone" name="phone" required>
-                                </div>
-                                <div class="form-group">
-                                    <label for="preferred-contact">Preferred Contact Method</label>
-                                    <select id="preferred-contact" name="preferred-contact">
-                                        <option value="email">Email</option>
-                                        <option value="phone">Phone</option>
-                                        <option value="text">Text</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label for="comments">Additional Comments</label>
-                                <textarea id="comments" name="comments" rows="4"></textarea>
-                            </div>
-                            <div class="form-actions">
-                                <button type="submit" class="btn btn-primary">Schedule Tour</button>
-                                <button type="button" class="btn btn-outline" id="requestInfo">Request More Information</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Quick Mortgage Calculator -->
-            <section class="mortgage-calculator">
-                <div class="container">
-                    <h2>Estimate Your Monthly Payment</h2>
-                    <div class="calculator-container">
-                        <div class="calculator-inputs">
-                            <div class="input-group">
-                                <label for="down-payment">Down Payment</label>
-                                <input type="range" id="down-payment" min="20" max="50" value="20">
-                                <output for="down-payment">20%</output>
-                            </div>
-                            <div class="input-group">
-                                <label for="loan-term">Loan Term</label>
-                                <select id="loan-term">
-                                    <option value="30">30 Years</option>
-                                    <option value="15">15 Years</option>
-                                    <option value="10">10 Years</option>
-                                </select>
-                            </div>
-                            <div class="input-group">
-                                <label for="interest-rate">Interest Rate</label>
-                                <input type="number" id="interest-rate" value="6.5" step="0.125">
-                            </div>
-                        </div>
-                        <div class="calculator-results">
-                            <div class="result-item">
-                                <span class="result-label">Monthly Payment</span>
-                                <span class="result-value" id="monthly-payment"></span>
-                            </div>
-                            <a href="finance.html" class="btn btn-secondary">View Detailed Calculator</a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </main>
-
-        <!-- Enhanced Footer -->
-        <footer class="footer">
+        <section class="unit-overview">
             <div class="container">
-                <div class="footer-content">
-                    <div class="footer-brand">
-                        <span class="logo-pw">PW</span> Residences
-                        <p>Redefining luxury living in the heart of Hollywood</p>
-                        <div class="social-links">
-                            <a href="#" aria-label="Follow us on Instagram"><i class="icon-instagram"></i></a>
-                            <a href="#" aria-label="Follow us on Facebook"><i class="icon-facebook"></i></a>
-                            <a href="#" aria-label="Follow us on LinkedIn"><i class="icon-linkedin"></i></a>
-                        </div>
-                    </div>
-                    <div class="footer-navigation">
-                        <div class="footer-links">
-                            <h3>Quick Links</h3>
-                            <ul>
-                                <li><a href="#virtual-tour">Virtual Tour</a></li>
-                                <li><a href="#floor-plans">Floor Plans</a></li>
-                                <li><a href="#gallery">Photo Gallery</a></li>
-                                <li><a href="#schedule-tour">Schedule Tour</a></li>
-                            </ul>
-                        </div>
-                        <div class="footer-links">
-                            <h3>Other Residences</h3>
-                            <ul>
-                                <li><a href="12B.html">Unit 12B</a></li>
-                                <li><a href="10N.html">Unit 10N</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="footer-contact">
-                        <h3>Contact Us</h3>
-                        <p>6250 Hollywood Blvd<br>Los Angeles, CA 90028</p>
-                        <p>Phone: (323) 555-0123<br>Email: info@pwresidences.com</p>
-                        <button class="btn btn-outline" id="footerContact">Contact Sales Team</button>
-                    </div>
+                <div class="breadcrumbs">
+                    <a href="index.html">Home</a> &gt; <span>Unit 8A</span>
                 </div>
-                <div class="footer-bottom">
-                    <p>&copy; 2025 PW Residences. All rights reserved.</p>
-                    <p class="image-credits">Images courtesy of <a href="https://unsplash.com" target="_blank" rel="noopener noreferrer">Unsplash</a></p>
-                    <div class="footer-legal">
-                        <a href="privacy.html">Privacy Policy</a>
-                        <a href="terms.html">Terms of Use</a>
-                        <a href="accessibility.html">Accessibility</a>
+                <h2>Unit 8A Specifications</h2>
+                <div class="specs-grid">
+                    <div class="spec-item">
+                        <h3>Listing Price</h3>
+                        <p class="highlight">$1,875,000</p>
+                    </div>
+                    <div class="spec-item">
+                        <h3>HOA Fees</h3>
+                        <p>$1,850/month</p>
+                    </div>
+                    <div class="spec-item">
+                        <h3>Square Footage</h3>
+                        <p>1,580 sq ft</p>
+                    </div>
+                    <div class="spec-item">
+                        <h3>Bedrooms</h3>
+                        <p>2</p>
+                    </div>
+                    <div class="spec-item">
+                        <h3>Bathrooms</h3>
+                        <p>2.5</p>
+                    </div>
+                    <div class="spec-item">
+                        <h3>Year Built</h3>
+                        <p>2010 (Remodeled 2022)</p>
                     </div>
                 </div>
             </div>
-        </footer>
+        </section>
 
-        <!-- Scripts -->
-        <script src="js/virtual-tour.js"></script>
-        <script src="js/floor-plan-viewer.js"></script>
-        <script src="js/gallery.js"></script>
-        <script src="js/neighborhood-map.js"></script>
-        <script src="js/tour-scheduler.js"></script>
-        <script src="js/mortgage-calculator.js"></script>
-    </body>
-    </html>
+        <section class="unit-description">
+            <div class="container">
+                <h2>Premium North-Facing Unit</h2>
+                <p class="lead">Unit 8A represents the pinnacle of luxury living at the W Hollywood Residences, featuring a recent comprehensive remodel and stunning north-facing views that showcase iconic Hollywood landmarks.</p>
+                
+                <p>This meticulously renovated residence offers an exceptional blend of sophisticated design, premium materials, and breathtaking vistas that create an unparalleled living experience. The north-facing orientation provides both spectacular views and optimal natural lighting throughout the day, creating a bright, welcoming atmosphere that highlights the unit's architectural features.</p>
+                
+                <p>With its strategic location on the 8th floor, this unit offers the perfect balance of elevation for panoramic views while maintaining a connection to the vibrant energy of Hollywood below. The recently completed renovation elevates this already exceptional property to a new level of luxury and comfort.</p>
+            </div>
+        </section>
+
+        <section class="image-gallery">
+            <div class="container">
+                <h2>Gallery</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item main-image">
+                        <img src="images/8A-living-room.jpg" alt="Unit 8A Living Room with panoramic north-facing views" class="gallery-img">
+                        <p class="caption">Spacious living room with floor-to-ceiling windows offering breathtaking north-facing views</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/8A-kitchen.jpg" alt="Unit 8A premium remodeled kitchen" class="gallery-img">
+                        <p class="caption">Gourmet kitchen with premium appliances and custom cabinetry</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/8A-master-bedroom.jpg" alt="Unit 8A master bedroom" class="gallery-img">
+                        <p class="caption">Luxurious master bedroom suite with custom lighting</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/8A-master-bath.jpg" alt="Unit 8A master bathroom" class="gallery-img">
+                        <p class="caption">Spa-inspired master bathroom with marble finishes</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/8A-dining.jpg" alt="Unit 8A dining area" class="gallery-img">
+                        <p class="caption">Elegant dining area with stunning city views</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/8A-view.jpg" alt="Spectacular north-facing view from Unit 8A" class="gallery-img">
+                        <p class="caption">Signature north-facing view featuring iconic Hollywood landmarks</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="floor-plan">
+            <div class="container">
+                <h2>Floor Plan</h2>
+                <div class="floor-plan-content">
+                    <div class="floor-plan-image">
+                        <img src="images/8A-floor-plan.jpg" alt="Unit 8A floor plan" class="plan-img">
+                    </div>
+                    <div class="floor-plan-details">
+                        <h3>Thoughtfully Designed Layout</h3>
+                        <ul class="floor-plan-features">
+                            <li>Open-concept living and dining area with floor-to-ceiling windows</li>
+                            <li>Gourmet kitchen with breakfast bar and premium appliances</li>
+                            <li>Spacious master suite with walk-in closet and luxury bathroom</li>
+                            <li>Second bedroom with en-suite bathroom</li>
+                            <li>Powder room for guests</li>
+                            <li>Home office nook with built-in shelving</li>
+                            <li>Ample storage throughout</li>
+                            <li>Private balcony with north-facing views</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="remodel-details">
+            <div class="container">
+                <h2>Recent Premium Remodeling</h2>
+                <p class="lead">Unit 8A underwent a comprehensive, high-end remodel in 2022, utilizing premium materials and expert craftsmanship throughout.</p>
+                
+                <div class="remodel-grid">
+                    <div class="remodel-item">
+                        <h3>Kitchen Transformation</h3>
+                        <ul>
+                            <li>Custom Italian cabinetry with soft-close features</li>
+                            <li>Premium quartz countertops with waterfall edge island</li>
+                            <li>Wolf and Sub-Zero stainless steel appliance package</li>
+                            <li>Designer tile backsplash with undermount lighting</li>
+                            <li>Custom wine storage</li>
+                        </ul>
+                    </div>
+                    <div class="remodel-item">
+                        <h3>Bathroom Upgrades</h3>
+                        <ul>
+                            <li>Marble vanities with undermount sinks</li>
+                            <li>Frameless glass shower enclosures</li>
+                            <li>Premium fixtures by Kohler and Grohe</li>
+                            <li>Heated flooring in master bathroom</li>
+                            <li>Custom-designed lighting</li>
+                        </ul>
+                    </div>
+                    <div class="remodel-item">
+                        <h3>Living Space Enhancements</h3>
+                        <ul>
+                            <li>Engineered hardwood flooring throughout</li>
+                            <li>Custom LED recessed lighting with dimmers</li>
+                            <li>Designer paint colors with accent walls</li>
+                            <li>Built-in entertainment center with integrated wiring</li>
+                            <li>Custom window treatments</li>
+                        </ul>
+                    </div>
+                    <div class="remodel-item">
+                        <h3>Technology & Comfort</h3>
+                        <ul>
+                            <li>Smart home system with voice control</li>
+                            <li>Programmable Nest thermostats</li>
+                            <li>Enhanced soundproofing between rooms</li>
+                            <li>USB charging outlets throughout</li>
+                            <li>High-efficiency HVAC system</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="amenities">
+            <div class="container">
+                <h2>Building Amenities</h2>
+                <p class="lead">As a resident of Unit 8A, you'll enjoy access to W Hollywood's world-class amenities and services.</p>
+                
+                <div class="amenities-grid">
+                    <div class="amenity-item">
+                        <h3>Rooftop Pool Deck</h3>
+                        <p>Spectacular rooftop pool with panoramic views, cabanas, and lounging areas</p>
+                    </div>
+                    <div class="amenity-item">
+                        <h3>Fitness Center</h3>
+                        <p>State-of-the-art fitness center with cardio equipment, weights, and yoga area</p>
+                    </div>
+                    <div class="amenity-item">
+                        <h3>24/7 Concierge</h3>
+                        <p>Full-service concierge to assist with dining reservations, entertainment, and personal requests</p>
+                    </div>
+                    <div class="amenity-item">
+                        <h3>Valet Parking</h3>
+                        <p>Complimentary valet parking service for residents and guests</p>
+                    </div>
+                    <div class="amenity-item">
+                        <h3>Business Center</h3>
+                        <p>Professional business center with meeting rooms and workstations</p>
+                    </div>
+                    <div class="amenity-item highlight-amenity">
+                        <h3>Unparalleled Views</h3>
+                        <p>Unit 8A's north-facing orientation provides spectacular views of the Hollywood Hills, the iconic Hollywood Sign, and the Capitol Records Building</p>
+                    </div>
+                    <div class="amenity-item">
+                        <h3>Security</h3>
+                        <p>24/7 security personnel and advanced surveillance systems</p>
+                    </div>
+                    <div class="amenity-item">
+                        <h3>Resident Lounge</h3>
+                        <p>Exclusive resident lounge for entertaining and socializing</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-form">
+            <div class="container">
+                <h2>Inquire About Unit 8A</h2>
+                <p>Interested in learning more about this premium residence? Complete the form below and a representative will contact you promptly.</p>
+                
+                <form id="unit-inquiry-form" class="inquiry-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="preferred-contact">Preferred Contact Method</label>
+                        <select id="preferred-contact" name="preferred-contact">
+                            <option value="email">Email</option>
+                            <option value="phone">Phone</option>
+                        </select>
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="message">Questions or Comments</label>
+                        <textarea id="message" name="message" rows="5"></textarea>
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="schedule">Schedule a Viewing</label>
+                        <input type="checkbox" id="schedule" name="schedule" value="yes">
+                        I'm interested in scheduling a private viewing
+                    </div>
+                    <div class="form-actions">
+                        <button type="submit" class="cta-button">Submit Inquiry</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <div class="container">
+                <h2>Experience Luxury Living at Unit 8A</h2>
+                <p>Don't miss the opportunity to make this premium, newly renovated residence your new home.</p>
+                <div class="cta-buttons">
+                    <a href="#unit-inquiry-form" class="cta-button">Schedule a Viewing</a>
+                    <a href="finance.html" class="cta-button secondary">Financial Analysis</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>W Hollywood Residences</h3>
+                <p>6250 Hollywood Blvd<br>Los Angeles, CA 90028</p>
+            </div>
+            <div class="footer-section">
+                <h3>Navigation</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="12B.html">Unit 12B</a></li>
+                    <li><a href="10N.html">
+
