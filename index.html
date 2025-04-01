@@ -3,207 +3,227 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>W Hollywood Residences - Luxury Living</title>
-    <meta name="description" content="Explore luxury living at W Hollywood Residences with a comparison of Units 12B, 10N, and 8A.">
+    <meta name="description" content="W Hollywood Residences - Luxury Living in the Heart of Hollywood">
+    <title>W Hollywood Residences</title>
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" href="images/w-logo.svg" type="image/svg+xml">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
+    <header class="site-header">
         <div class="container">
-            <nav class="nav">
-                <a href="index.html" class="logo">
-                    <img src="images/w-logo.svg" alt="W Logo" class="w-logo"> Residences
-                </a>
-                <ul class="nav-list">
-                    <li class="nav-item">
-                        <a href="index.html" class="nav-link active">Home</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a href="#" class="nav-link">Units</a>
-                        <div class="dropdown-menu">
-                            <a href="12B.html" class="dropdown-item">Unit 12B</a>
-                            <a href="10N.html" class="dropdown-item">Unit 10N</a>
-                            <a href="8A.html" class="dropdown-item">Unit 8A</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a href="finance.html" class="nav-link">Finance</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="statement.html" class="nav-link">Statement</a>
-                    </li>
-                </ul>
-                <button class="menu-toggle" aria-label="Toggle navigation menu">
-                    <span class="menu-icon"></span>
-                </button>
-            </nav>
+            <div class="header-inner">
+                <div class="logo-container">
+                    <a href="index.html" class="logo">
+                        <img src="images/w-logo.svg" alt="W Hollywood Residences" class="w-logo">
+                    </a>
+                </div>
+                <nav class="main-navigation">
+                    <button class="menu-toggle" aria-label="Toggle Menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <ul class="nav-menu">
+                        <li><a href="index.html" class="nav-link active">Home</a></li>
+                        <li><a href="12B.html" class="nav-link">Unit 12B</a></li>
+                        <li><a href="10N.html" class="nav-link">Unit 10N</a></li>
+                        <li><a href="8A.html" class="nav-link">Unit 8A</a></li>
+                        <li><a href="financial.html" class="nav-link">Financial Analysis</a></li>
+                        <li><a href="statement.html" class="nav-link">Personal Statement</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
 
-    <main>
-        <section class="hero fade-in">
-            <div class="container">
-                <div class="hero-content">
-                    <h2>Redefining Luxury Living at <img src="images/w-logo-white.svg" alt="W Logo" class="w-logo-inline"> Residences</h2>
-                    <p>Where sophisticated design meets Hollywood glamour, creating an unparalleled living experience in Los Angeles' most iconic location.</p>
-                    <a href="8A.html" class="btn btn-primary btn-lg">Explore Unit 8A</a>
-                </div>
-            </div>
-        </section>
-
-        <section class="introduction fade-in" aria-label="Welcome section">
-            <div class="container">
-                <h2>Welcome to <img src="images/w-logo-white.svg" alt="W Logo" class="w-logo-inline"> Residences</h2>
-                <p>Situated at the legendary intersection of Hollywood and Vine, W Residences represents a bold reimagining of luxury living in the heart of Los Angeles. With breathtaking views, world-class amenities, and the electric energy of Hollywood at your doorstep, these distinctive residences exemplify the pinnacle of urban sophistication.</p>
-                <p>Our proposal showcases a detailed comparison of three exceptional units, with particular emphasis on the recently transformed Unit 8A.</p>
-            </div>
-        </section>
-
-        <section class="gallery-showcase fade-in" aria-label="Gallery section">
-            <div class="container">
-                <h2>Experience Luxury Living</h2>
-                <div class="gallery-rolodex" role="region" aria-label="Property gallery">
-                    <div class="gallery-slide active" data-image="images/common/unit_common_image_1.jpg">
-                        <div class="loading-indicator">
-                            <span class="loader"></span>
-                        </div>
-                    </div>
-                    <div class="gallery-slide" data-image="images/common/unit_common_image_2.jpg">
-                        <div class="loading-indicator">
-                            <span class="loader"></span>
-                        </div>
-                    </div>
-                    <div class="gallery-slide" data-image="images/common/unit_common_image_3.jpg">
-                        <div class="loading-indicator">
-                            <span class="loader"></span>
-                        </div>
-                    </div>
-                    <div class="gallery-nav" role="tablist" aria-label="Gallery navigation">
-                        <div class="gallery-dot active" data-slide="0" role="tab" aria-selected="true" aria-label="View first image"></div>
-                        <div class="gallery-dot" data-slide="1" role="tab" aria-selected="false" aria-label="View second image"></div>
-                        <div class="gallery-dot" data-slide="2" role="tab" aria-selected="false" aria-label="View third image"></div>
-                    </div>
-                </div>
-                <p class="text-center gallery-caption">Immerse yourself in the refined elegance of our common spaces and amenities.</p>
-            </div>
-        </section>
-
-        <section class="unit-comparison fade-in" aria-label="Unit comparison section">
-            <div class="container">
-                <h2>Distinguished Residences</h2>
-                <div class="unit-cards-container">
-                    <div class="unit-card">
-                        <div class="unit-image">
-                            <img src="images/12B/unit_12B_image_1.jpg" alt="Unit 12B Interior" loading="lazy" aria-describedby="unit12b-desc">
-                            <div class="loading-indicator">
-                                <span class="loader"></span>
-                            </div>
-                            <span class="unit-tag">High Floor</span>
-                        </div>
-                        <div class="unit-content">
-                            <h3 class="unit-title">Unit 12B</h3>
-                            <p id="unit12b-desc">A sophisticated high-floor residence offering dramatic sunset views and refined living spaces.</p>
-                            <div class="unit-footer">
-                                <a href="12B.html" class="btn btn-outline">View Details</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="unit-card">
-                        <div class="unit-image">
-                            <img src="images/10N/unit_10N_image_1.jpg" alt="Unit 10N Interior" loading="lazy" aria-describedby="unit10n-desc">
-                            <div class="loading-indicator">
-                                <span class="loader"></span>
-                            </div>
-                            <span class="unit-tag">Panoramic Views</span>
-                        </div>
-                        <div class="unit-content">
-                            <h3 class="unit-title">Unit 10N</h3>
-                            <p id="unit10n-desc">An elegant mid-level residence featuring contemporary finishes and sweeping city vistas.</p>
-                            <div class="unit-footer">
-                                <a href="10N.html" class="btn btn-outline">View Details</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="unit-card featured">
-                        <div class="unit-image">
-                            <img src="images/8A/unit_8A_image_1.jpg" alt="Unit 8A Interior" loading="lazy" aria-describedby="unit8a-desc">
-                            <div class="loading-indicator">
-                                <span class="loader"></span>
-                            </div>
-                            <span class="unit-tag">Featured</span>
-                        </div>
-                        <div class="unit-content">
-                            <h3 class="unit-title">Unit 8A</h3>
-                            <p id="unit8a-desc">Our signature residence - a masterfully reimagined space featuring premium finishes and iconic Hollywood views.</p>
-                            <div class="unit-footer">
-                                <a href="8A.html" class="btn btn-primary">Explore Unit 8A</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="why-8a fade-in" aria-label="Unit 8A features">
-            <div class="container">
-                <h2>The Unit 8A Experience</h2>
-                <div class="features">
-                    <div class="feature">
-                        <div class="feature-icon" aria-hidden="true">✧</div>
-                        <h3 class="feature-title">Artisan Craftsmanship</h3>
-                        <p>Meticulously curated materials and finishes, executed with unprecedented attention to detail.</p>
-                    </div>
-                    <div class="feature">
-                        <div class="feature-icon" aria-hidden="true">✧</div>
-                        <h3 class="feature-title">Landmark Views</h3>
-                        <p>Premium north-facing exposure showcasing Hollywood's most iconic landmarks and cityscapes.</p>
-                    </div>
-                    <div class="feature">
-                        <div class="feature-icon" aria-hidden="true">✧</div>
-                        <h3 class="feature-title">Investment Potential</h3>
-                        <p>Strategic positioning in Los Angeles' most dynamic and appreciating luxury market.</p>
-                    </div>
-                </div>
-                <div class="text-center">
-                    <a href="8A.html" class="btn btn-primary btn-lg">Discover Unit 8A</a>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer class="footer fade-in">
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-section">
-                    <h3 class="footer-logo"><img src="images/w-logo-white.svg" alt="W Logo" class="w-logo-footer"> Residences</h3>
-                    <p>6250 Hollywood Blvd<br>Los Angeles, CA 90028</p>
-                </div>
-                <div class="footer-section">
-                    <h3>Quick Links</h3>
-                    <ul>
-                        <li><a href="index.html" class="footer-link">Home</a></li>
-                        <li><a href="12B.html" class="footer-link">Unit 12B</a></li>
-                        <li><a href="10N.html" class="footer-link">Unit 10N</a></li>
-                        <li><a href="8A.html" class="footer-link">Unit 8A</a></li>
-                        <li><a href="finance.html" class="footer-link">Finance</a></li>
-                        <li><a href="statement.html" class="footer-link">Statement</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h3>Image Credits</h3>
-                    <p>Photography by <a href="https://unsplash.com" target="_blank" class="footer-link">Unsplash</a></p>
-                </div>
-            </div>
-            <div class="copyright">
-                <p>&copy; 2025 W Residences. All rights reserved.</p>
+    <section class="hero-section">
+        <div class="hero-image">
+            <!-- Image will be set as background in CSS -->
+            <div class="hero-content container">
+                <h1 class="hero-title">Extraordinary Living at<br><span class="accent-text">W Hollywood</span></h1>
+                <p class="hero-subtitle">Where luxury meets the iconic Hollywood lifestyle</p>
+                <a href="#featured-residences" class="btn btn-primary">Explore Residences</a>
             </div>
         </div>
-    </footer>
+    </section>
 
-    <script src="js/main.js" async></script>
-</body>
-</html>
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-grid">
+                <div class="about-content">
+                    <h2 class="section-title">The W Experience</h2>
+                    <p class="section-text">Nestled in the heart of Hollywood, W Residences offers an unparalleled luxury living experience. Combining iconic architecture with sophisticated design, each residence represents the pinnacle of urban elegance.</p>
+                    <p class="section-text">As a resident, you'll enjoy exclusive access to the W's signature amenities, personalized services, and a lifestyle defined by both style and substance.</p>
+                    <a href="#contact" class="btn btn-secondary">Learn More</a>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="featured-residences" class="featured-section">
+        <div class="container">
+            <h2 class="section-title centered">Featured Residences</h2>
+            <p class="section-description centered">Discover our most sought-after luxury units</p>
+            
+            <div class="residence-grid">
+                <article class="residence-card">
+                    <div class="residence-image">
+                        <div class="image-placeholder"></div>
+                        <span class="residence-badge">Featured</span>
+                    </div>
+                    <div class="residence-content">
+                        <h3 class="residence-title">Unit 12B</h3>
+                        <p class="residence-details">3 Bed • 3.5 Bath • 3,000 sq.ft</p>
+                        <p class="residence-description">Stunning corner unit with panoramic views of the Hollywood Hills and downtown LA.</p>
+                        <a href="12B.html" class="btn btn-text">View Details</a>
+                    </div>
+                </article>
+                
+                <article class="residence-card">
+                    <div class="residence-image">
+                        <div class="image-placeholder"></div>
+                    </div>
+                    <div class="residence-content">
+                        <h3 class="residence-title">Unit 10N</h3>
+                        <p class="residence-details">2 Bed • 2.5 Bath • 2,450 sq.ft</p>
+                        <p class="residence-description">Elegant residence with floor-to-ceiling windows and custom finishes.</p>
+                        <a href="10N.html" class="btn btn-text">View Details</a>
+                    </div>
+                </article>
+                
+                <article class="residence-card">
+                    <div class="residence-image">
+                        <div class="image-placeholder"></div>
+                    </div>
+                    <div class="residence-content">
+                        <h3 class="residence-title">Unit 8A</h3>
+                        <p class="residence-details">1 Bed • 1.5 Bath • 1,800 sq.ft</p>
+                        <p class="residence-description">Sophisticated urban retreat with premium designer touches.</p>
+                        <a href="8A.html" class="btn btn-text">View Details</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="amenities-section">
+        <div class="container">
+            <div class="section-grid">
+                <div class="amenities-image">
+                    <div class="image-placeholder"></div>
+                </div>
+                <div class="amenities-content">
+                    <h2 class="section-title">Signature Amenities</h2>
+                    <ul class="amenities-list">
+                        <li class="amenity-item">Rooftop pool with panoramic views</li>
+                        <li class="amenity-item">24-hour concierge and security</li>
+                        <li class="amenity-item">Exclusive resident lounge</li>
+                        <li class="amenity-item">State-of-the-art fitness center</li>
+                        <li class="amenity-item">Private screening room</li>
+                        <li class="amenity-item">Secure valet parking</li>
+                        <li class="amenity-item">In-residence dining services</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title centered">Experience W Hollywood</h2>
+            <p class="section-description centered">Contact us to arrange a private viewing or learn more about our residences</p>
+            
+            <div class="contact-grid">
+                <div class="contact-form-container">
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="interest">Interested In</label>
+                            <select id="interest" name="interest">
+                                <option value="">Select an option</option>
+                                <option value="12B">Unit 12B</option>
+                                <option value="10N">Unit 10N</option>
+                                <option value="8A">Unit 8A</option>
+                                <option value="general">General Inquiry</option>
+                            </select>
+                        </div>
+                        <div class="form-group full-width">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary full-width">Submit Inquiry</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <h3 class="info-title">Visit Us</h3>
+                        <p class="info-text">6250 Hollywood Blvd<br>Los Angeles, CA 90028</p>
+                    </div>
+                    <div class="info-item">
+                        <h3 class="info-title">Contact</h3>
+                        <p class="info-text">sales@whollywoodresidences.com<br>(323) 798-1300</p>
+                    </div>
+                    <div class="info-item">
+                        <h3 class="info-title">Hours</h3>
+                        <p class="info-text">Monday - Friday: 9am - 7pm<br>Saturday - Sunday: 10am - 6pm</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <img src="images/w-logo-white.svg" alt="W Hollywood Residences" class="footer-logo">
+                    <p class="footer-tagline">Where iconic meets luxurious</p>
+                </div>
+                <div class="footer-nav">
+                    <h3 class="footer-heading">Navigation</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="12B.html">Unit 12B</a></li>
+                        <li><a href="10N.html">Unit 10N</a></li>
+                        <li><a href="8A.html">Unit 8A</a></li>
+                        <li><a href="financial.html">Financial Analysis</a></li>
+                        <li><a href="statement.html">Personal Statement</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3 class="footer-heading">Contact</h3>
+                    <address class="footer-address">
+                        6250 Hollywood Blvd<br>
+                        Los Angeles, CA 90028<br>
+                        (323) 798-1300<br>
+                        sales@whollywoodresidences.com
+                    </address>
+                </div>
+                <div class="footer-social">
+                    <h3 class="footer-heading">Connect</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <svg class="social-icon" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <svg class="social-icon" viewBox="0 0 24 24"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/></svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            <svg class="social-icon" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 
+
