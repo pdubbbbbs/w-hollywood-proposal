@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+Disallow: /css/
+Disallow: /js/
+Disallow: /images/raw/
+Disallow: /admin/
+Disallow: /api/
+
+# Allow Google Images to index images
+User-agent: Googlebot-Image
+Allow: /images/
+
+# Sitemap location
+Sitemap: https://example.com/sitemap.xml
+
