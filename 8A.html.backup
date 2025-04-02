@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit 8A - W Hollywood Residences</title>
+    <meta name="description" content="Explore the premium features of Unit 8A at W Hollywood Residences, featuring a recent high-quality remodel and stunning north-facing views.">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>W Hollywood Residences</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="#" class="active">Units</a>
+                    <div class="dropdown-content">
+                        <a href="12B.html">Unit 12B</a>
+                        <a href="10N.html">Unit 10N</a>
+                        <a href="8A.html" class="active">Unit 8A</a>
+                    </div>
+                </li>
+                <li><a href="finance.html">Finance</a></li>
+                <li><a href="statement.html">Statement</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero unit-hero">
+            <div class="hero-content">
+                <h2>Unit 8A - Premium Luxury Living</h2>
+                <p>Discover the crown jewel of W Hollywood Residences, featuring a recent high-quality remodel and breathtaking north-facing views.</p>
+            </div>
+        </section>
+
+        <section class="unit-overview">
+            <div class="container">
+                <div class="breadcrumbs">
+                    <a href="index.html">Home</a> &gt; <span>Unit 8A</span>
+                </div>
+                <h2>Unit 8A Specifications</h2>
+                <div class="specs-grid">
+                    <div class="spec-item">
+                        <h3>Listing Price</h3>
+                        <p class="highlight">$1,875,000</p>
+                    </div>
+                    <div class="spec-item">
+                        <h3>HOA Fees</h3>
+                        <p>$1,850/month</p>
+                    </div>
+                    <div class="spec-item">
+                        <h3>Square Footage</h3>
+                        <p>1,580 sq ft</p>
+                    </div>
+                    <div class="spec-item">
+                        <h3>Bedrooms</h3>
+                        <p>2</p>
+                    </div>
+                    <div class="spec-item">
+                        <h3>Bathrooms</h3>
+                        <p>2.5</p>
+                    </div>
+                    <div class="spec-item">
+                        <h3>Year Built</h3>
+                        <p>2010 (Remodeled 2022)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="unit-description">
+            <div class="container">
+                <h2>Premium North-Facing Unit</h2>
+                <p class="lead">Unit 8A represents the pinnacle of luxury living at the W Hollywood Residences, featuring a recent comprehensive remodel and stunning north-facing views that showcase iconic Hollywood landmarks.</p>
+                
+                <p>This meticulously renovated residence offers an exceptional blend of sophisticated design, premium materials, and breathtaking vistas that create an unparalleled living experience. The north-facing orientation provides both spectacular views and optimal natural lighting throughout the day, creating a bright, welcoming atmosphere that highlights the unit's architectural features.</p>
+                
+                <p>With its strategic location on the 8th floor, this unit offers the perfect balance of elevation for panoramic views while maintaining a connection to the vibrant energy of Hollywood below. The recently completed renovation elevates this already exceptional property to a new level of luxury and comfort.</p>
+            </div>
+        </section>
+
+        <section class="image-gallery">
+            <div class="container">
+                <h2>Gallery</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item main-image">
+                        <img src="images/8A-living-room.jpg" alt="Unit 8A Living Room with panoramic north-facing views" class="gallery-img">
+                        <p class="caption">Spacious living room with floor-to-ceiling windows offering breathtaking north-facing views</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/8A-kitchen.jpg" alt="Unit 8A premium remodeled kitchen" class="gallery-img">
+                        <p class="caption">Gourmet kitchen with premium appliances and custom cabinetry</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/8A-master-bedroom.jpg" alt="Unit 8A master bedroom" class="gallery-img">
+                        <p class="caption">Luxurious master bedroom suite with custom lighting</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/8A-master-bath.jpg" alt="Unit 8A master bathroom" class="gallery-img">
+                        <p class="caption">Spa-inspired master bathroom with marble finishes</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/8A-dining.jpg" alt="Unit 8A dining area" class="gallery-img">
+                        <p class="caption">Elegant dining area with stunning city views</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="images/8A-view.jpg" alt="Spectacular north-facing view from Unit 8A" class="gallery-img">
+                        <p class="caption">Signature north-facing view featuring iconic Hollywood landmarks</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="floor-plan">
+            <div class="container">
+                <h2>Floor Plan</h2>
+                <div class="floor-plan-content">
+                    <div class="floor-plan-image">
+                        <img src="images/8A-floor-plan.jpg" alt="Unit 8A floor plan" class="plan-img">
+                    </div>
+                    <div class="floor-plan-details">
+                        <h3>Thoughtfully Designed Layout</h3>
+                        <ul class="floor-plan-features">
+                            <li>Open-concept living and dining area with floor-to-ceiling windows</li>
+                            <li>Gourmet kitchen with breakfast bar and premium appliances</li>
+                            <li>Spacious master suite with walk-in closet and luxury bathroom</li>
+                            <li>Second bedroom with en-suite bathroom</li>
+                            <li>Powder room for guests</li>
+                            <li>Home office nook with built-in shelving</li>
+                            <li>Ample storage throughout</li>
+                            <li>Private balcony with north-facing views</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="remodel-details">
+            <div class="container">
+                <h2>Recent Premium Remodeling</h2>
+                <p class="lead">Unit 8A underwent a comprehensive, high-end remodel in 2022, utilizing premium materials and expert craftsmanship throughout.</p>
+                
+                <div class="remodel-grid">
+                    <div class="remodel-item">
+                        <h3>Kitchen Transformation</h3>
+                        <ul>
+                            <li>Custom Italian cabinetry with soft-close features</li>
+                            <li>Premium quartz countertops with waterfall edge island</li>
+                            <li>Wolf and Sub-Zero stainless steel appliance package</li>
+                            <li>Designer tile backsplash with undermount lighting</li>
+                            <li>Custom wine storage</li>
+                        </ul>
+                    </div>
+                    <div class="remodel-item">
+                        <h3>Bathroom Upgrades</h3>
+                        <ul>
+                            <li>Marble vanities with undermount sinks</li>
+                            <li>Frameless glass shower enclosures</li>
+                            <li>Premium fixtures by Kohler and Grohe</li>
+                            <li>Heated flooring in master bathroom</li>
+                            <li>Custom-designed lighting</li>
+                        </ul>
+                    </div>
+                    <div class="remodel-item">
+                        <h3>Living Space Enhancements</h3>
+                        <ul>
+                            <li>Engineered hardwood flooring throughout</li>
+                            <li>Custom LED recessed lighting with dimmers</li>
+                            <li>Designer paint colors with accent walls</li>
+                            <li>Built-in entertainment center with integrated wiring</li>
+                            <li>Custom window treatments</li>
+                        </ul>
+                    </div>
+                    <div class="remodel-item">
+                        <h3>Technology & Comfort</h3>
+                        <ul>
+                            <li>Smart home system with voice control</li>
+                            <li>Programmable Nest thermostats</li>
+                            <li>Enhanced soundproofing between rooms</li>
+                            <li>USB charging outlets throughout</li>
+                            <li>High-efficiency HVAC system</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="amenities">
+            <div class="container">
+                <h2>Building Amenities</h2>
+                <p class="lead">As a resident of Unit 8A, you'll enjoy access to W Hollywood's world-class amenities and services.</p>
+                
+                <div class="amenities-grid">
+                    <div class="amenity-item">
+                        <h3>Rooftop Pool Deck</h3>
+                        <p>Spectacular rooftop pool with panoramic views, cabanas, and lounging areas</p>
+                    </div>
+                    <div class="amenity-item">
+                        <h3>Fitness Center</h3>
+                        <p>State-of-the-art fitness center with cardio equipment, weights, and yoga area</p>
+                    </div>
+                    <div class="amenity-item">
+                        <h3>24/7 Concierge</h3>
+                        <p>Full-service concierge to assist with dining reservations, entertainment, and personal requests</p>
+                    </div>
+                    <div class="amenity-item">
+                        <h3>Valet Parking</h3>
+                        <p>Complimentary valet parking service for residents and guests</p>
+                    </div>
+                    <div class="amenity-item">
+                        <h3>Business Center</h3>
+                        <p>Professional business center with meeting rooms and workstations</p>
+                    </div>
+                    <div class="amenity-item highlight-amenity">
+                        <h3>Unparalleled Views</h3>
+                        <p>Unit 8A's north-facing orientation provides spectacular views of the Hollywood Hills, the iconic Hollywood Sign, and the Capitol Records Building</p>
+                    </div>
+                    <div class="amenity-item">
+                        <h3>Security</h3>
+                        <p>24/7 security personnel and advanced surveillance systems</p>
+                    </div>
+                    <div class="amenity-item">
+                        <h3>Resident Lounge</h3>
+                        <p>Exclusive resident lounge for entertaining and socializing</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-form">
+            <div class="container">
+                <h2>Inquire About Unit 8A</h2>
+                <p>Interested in learning more about this premium residence? Complete the form below and a representative will contact you promptly.</p>
+                
+                <form id="unit-inquiry-form" class="inquiry-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="preferred-contact">Preferred Contact Method</label>
+                        <select id="preferred-contact" name="preferred-contact">
+                            <option value="email">Email</option>
+                            <option value="phone">Phone</option>
+                        </select>
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="message">Questions or Comments</label>
+                        <textarea id="message" name="message" rows="5"></textarea>
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="schedule">Schedule a Viewing</label>
+                        <input type="checkbox" id="schedule" name="schedule" value="yes">
+                        I'm interested in scheduling a private viewing
+                    </div>
+                    <div class="form-actions">
+                        <button type="submit" class="cta-button">Submit Inquiry</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <div class="container">
+                <h2>Experience Luxury Living at Unit 8A</h2>
+                <p>Don't miss the opportunity to make this premium, newly renovated residence your new home.</p>
+                <div class="cta-buttons">
+                    <a href="#unit-inquiry-form" class="cta-button">Schedule a Viewing</a>
+                    <a href="finance.html" class="cta-button secondary">Financial Analysis</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>W Hollywood Residences</h3>
+                <p>6250 Hollywood Blvd<br>Los Angeles, CA 90028</p>
+            </div>
+            <div class="footer-section">
+                <h3>Navigation</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="12B.html">Unit 12B</a></li>
+                    <li><a href="10N.html">
+
